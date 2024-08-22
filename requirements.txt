@@ -1,0 +1,12 @@
+unstructured
+langchain-community
+unstructured[all-docs]
+python-libmagic
+poppler-utils
+tesseract-ocr
+pikepdf
+libreoffice
+pandoc
+langchain-unstructured[local]
+langgraph
+pandoc
