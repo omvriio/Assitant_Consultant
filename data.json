@@ -1,0 +1,97 @@
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#messages",
+    "value": [
+        {
+            "id": "AAMkAGI2TAAA=",
+            "receivedDateTime": "2024-08-16T09:30:47Z",
+            "subject": "Clarifications on Requirement X123",
+            "body": {
+                "contentType": "html",
+                "content": "<p>Dear Expert Team,</p><p>We need further clarification on requirement X123. The current interpretation seems to conflict with the supplier's proposal. Could you provide additional insights?</p><p>Best regards,<br>Consultant Name</p>"
+            },
+            "sender": {
+                "emailAddress": {
+                    "name": "Consultant Name",
+                    "address": "consultant@example.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Expert Team",
+                        "address": "expert.team@example.com"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "AAMkAGI2TBBB=",
+            "receivedDateTime": "2024-08-16T10:15:32Z",
+            "subject": "Response to Clarifications on Requirement X123",
+            "body": {
+                "contentType": "html",
+                "content": "<p>Dear Consultant,</p><p>Regarding your query on requirement X123, the interpretation is correct as per the specification. However, the supplier's proposal seems to be an acceptable alternative with minimal deviation. We suggest a meeting to discuss this further.</p><p>Best regards,<br>Expert Team</p>"
+            },
+            "sender": {
+                "emailAddress": {
+                    "name": "Expert Team",
+                    "address": "expert.team@example.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Consultant Name",
+                        "address": "consultant@example.com"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "AAMkAGI2TCCC=",
+            "receivedDateTime": "2024-08-16T11:45:12Z",
+            "subject": "Follow-up on Requirement Y456",
+            "body": {
+                "contentType": "html",
+                "content": "<p>Dear Supplier Team,</p><p>Could you please provide an update on the status of requirement Y456? We are awaiting your response to proceed with the conformity assessment.</p><p>Best regards,<br>Consultant Name</p>"
+            },
+            "sender": {
+                "emailAddress": {
+                    "name": "Consultant Name",
+                    "address": "consultant@example.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Supplier Team",
+                        "address": "supplier.team@example.com"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "AAMkAGI2TDDD=",
+            "receivedDateTime": "2024-08-16T12:30:05Z",
+            "subject": "Response to Follow-up on Requirement Y456",
+            "body": {
+                "contentType": "html",
+                "content": "<p>Dear Consultant,</p><p>We apologize for the delay. The status of requirement Y456 is currently under review, and we will provide the necessary documentation shortly.</p><p>Best regards,<br>Supplier Team</p>"
+            },
+            "sender": {
+                "emailAddress": {
+                    "name": "Supplier Team",
+                    "address": "supplier.team@example.com"
+                }
+            },
+            "toRecipients": [
+                {
+                    "emailAddress": {
+                        "name": "Consultant Name",
+                        "address": "consultant@example.com"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3567 @@
+Chunk 1:
+[Table]
+
+ | Identification :
+ | Applicable to project :
+Radars-2026
+SMALL
+Component specification
+FrontRadar2026
+&
+CornerRadars2026 | Component specification
+FrontRadar2026
+&
+CornerRadars2026 | Component specification
+FrontRadar2026
+&
+CornerRadars2026
+
+----------------------------------------------------------------------------------------
+Chunk 2:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 3:
+[Table]
+
+Author(s) : | Author(s) : | Author(s) :
+Name :
+Alexandre Leduc
+Aristide Placidoux (modificator)
+Soufiane Lfaze (modificator) | Date 
+08/07/2022 | Signature:
+
+
+----------------------------------------------------------------------------------------
+Chunk 4:
+
+
+----------------------------------------------------------------------------------------
+Chunk 5:
+[Table]
+
+Inspector(s) : | Inspector(s) : | Inspector(s) :
+Name :
+ | Date  | Signature:
+
+
+----------------------------------------------------------------------------------------
+Chunk 6:
+
+
+----------------------------------------------------------------------------------------
+Chunk 7:
+[Table]
+
+Approved By : | Approved By : | Approved By :
+Name :
+ | Date  | Signature:
+
+
+----------------------------------------------------------------------------------------
+Chunk 8:
+
+
+Table of updates
+
+----------------------------------------------------------------------------------------
+Chunk 9:
+[Table]
+
+Index | Date | Author | Modification account
+1.0 | 08/07/2022 | A. Leduc | Spec creation
+Last ID used : 115
+2.0 | 26/10/2022 | Placidoux | Spec Update mid RFQ
+
+REQUIREMENTS:
+
+New:
+GEN-RADARS2026-CSP-MECA-005(0)
+GEN-VHL-CS_FRONTRADAR2026_020(0)
+GEN-VHL-CS_FRONTRADAR2026_021(0)
+GEN-VHL-CS_FRONTRADAR2026_022(0)
+GEN-VHL-CS_FRONTRADAR2026_023(0)
+GEN-VHL-CS_FRONTRADAR2026_024(0)
+GEN-VHL-CS_RADARS2026_027(0)
+GEN-VHL-CS_RADARS2026_029(0)
+GEN-VHL-CS_RADARS2026_030(0)
+GEN-VHL-CS_RADARS2026_032(0)
+GEN-VHL-CS_RADARS2026_033(0)
+GEN-VHL-CS_RADARS2026_034(0)
+
+
+Modified:
+GEN-FUNC-SMALL-001(0): Rajout des archi radar centric et camera centric
+
+Deleted :
+GEN-FRONTRADAR2026-CSP-FUNC-016(0)
+GEN-FRONTRADAR2026-CSP-FUNC-021(0)
+GEN-VHL-CS-FRONTRADAR2026.072(0)
+GEN-VHL-CS- FRONTRADAR2026.073(0)
+
+Added document:
+[CAN13]
+
+3.0 | 16/12/2022 | S.LFAZE | Spec Update mid RFQ
+
+REQUIREMENTS:
+     New:
+GEN-VHL-CS_RADARS2026_019(0)
+GEN-VHL-CS-RADARS2026.081(0)
+GEN-CORNERRADARS2026-CSP-MAINT-055(0)
+GEN-VHL-CS-RADARS2026.082(0)
+GEN-VHL-CS-RADARS2026.083(0)
+GEN-RADARS2026-CSP-CONC-093(0)
+GEN-VHL-CS-RADARS2026.043(0)
+GEN-VHL-CS-RADARS2026.044(0)
+GEN-VHL-CS-RADARS2026.031(0)
+GEN-RADARS2026-CSP-FUNC-025(0)
+GEN-VHL-CS-RADARS2026.032(0)
+GEN-VHL-CS-RADARS2026.045(0)
+GEN-VHL-CS_Radars2026-VAL-111(0)
+GEN-RADARS2026-CSP-FUNC-026(0)
+GEN-RADARS2026-CSP-FUNC-027(0)
+
+     Updated:
+ 
+GEN-RADARS2026-CSP-MARQ-099(1)
+GEN-FRONTRADAR2026-CSP-FUNC-019(1)
+GEN-RADARS2026-CSP-FUNC-004(1)
+GEN-FRONTRADAR2026-CSP-FUNC-020(1)
+GEN-RADARS2026-CSP-CONC-083(1)
+GEN-RADARS2026-CSP-FUNC-018(1)
+GEN-VHL-CS_RADARS2026_030(1)
+GEN-VHL-CS-RADARS2026.078(1)
+GEN-VHL-CS-RADARS2026.039(1)
+GEN-VHL-CS-RADARS2026.040(1)
+GEN-VHL-CS-RADARS2026.038(1)
+GEN-RADARS2026-CSP-CONC-088(1)
+GEN-RADARS2026-CSP-MECA-001(1)
+GEN-RADARS2026-CSP-MECA-003(1)
+GEN-RADARS2026-CSP-PHYS-066(1)
+GEN-RADARS2026-CSP-MARQ-101(1)
+GEN-RADARS2026-CSP-CONC-089(1)
+GEN-VHL-CS-RADARS2026.035(1)
+GEN-FRONTRADAR2026-CSP-MAINT-046(1)
+GEN-CORNERRADARS2026-CSP-MAINT-047(1)
+GEN-CORNERRADARS2026-CSP-MAINT-048(1)
+GEN-CORNERRADARS2026-CSP-MAINT-049(1)
+GEN-CORNERRADARS2026-CSP-MAINT-050(1)
+GEN-RADARS2026-CSP-FUNC-008(1)
+     Deleted:
+
+GEN-CORNERRADARS2026-CSP-MAINT-052(1)
+GEN-CORNERRADARS2026-CSP-MAINT-051(1)
+
+REFERENCE DOCUMENTS:
+
+     New:
+01991_22_00952
+     Updated:
+01991_22_01996 instead of- 02016_16_03588
+01991_22_01994 instead of- 02016_16_05786
+ 
+01276_15_00086
+01301_15_01026
+00786_19_02049
+00949_14_05687
+DMOV_ELE06_0050
+01446_22_00049
+02017_12_03547
+01505_21_01349
+02014_22_00435
+0000004396_01
+0000004397_01
+0000004398_01
+0000004399_01
+0000004400_01
+
+     Deleted:
+02016_16_03588
+02016_16_05786
+01991_22_01432 
+01991_21_01332
+01991_21_01338
+APPLICABLE DOCUMENTS:
+
+     New:
+[IUAV]
+[N44]   
+[SQM24] 
+[TS7]
+[STA5]
+[SHORT4]
+
+ CYBER from supersetlist:
+-[CYBER1]
+-[CYBER2]
+-[CYBER4]
+-[CYBER5]
+-[CYBER6]
+-[CYBER7]
+-[CYBER8]
+-[CYBER9]
+-[CYBER10]
+-[CYBER11]
+-[CYBER12]
+-[CYBER14]
+-[CYBER15]
+-[CYBER37]
+-[CYBER16]
+-[CYBER17]
+-[CYBER18]
+-[CYBER19]
+-[CYBER20]
+-[CYBER21]
+-[CYBER22]
+-[CYBER24]
+-[CYBER25]
+-[CYBER26]
+-[CYBER27]
+-[CYBER28]
+-[CYBER29]
+-[CYBER30]
+-[CYBER31]
+-[CYBER32]
+-[CYBER33]
+-[CYBER34]
+-[CYBER35]
+-[CYBER36]
+DIAG from supersetlist:
+-[DIAG21]
+-[DIAG22]
+-[DIAG25]
+-[DIAG27]
+-[DIAG28]
+-[DIAG29]
+-[DIAG30]
+-[DIAG31]
+-[DIAG32]
+-[DIAG33]
+-[DIAG34]
+-[DIAGTEST1]
+-[DIAGTEST2]
+-[DIAGTEST3]
+-EOL from supersetlist:
+-[EOL1]
+-[EOL2]
+FUSA  from supersetlist:
+-[E2E]
+-[TS3]
+-[16]
+-[21]
+-[22]
+NET  from supersetlist:
+-[NETTEST1]
+-[NETTEST2]
+-[NETTEST4]
+-[NETTEST5]
+
+[15]
+[CAN11]
+[CAN12]
+[synchroTS1]
+
+
+     Deleted:
+[1]  Ethernet folder is deleted 
+[2] Ethernet folder is deleted
+[3] Ethernet folder is deleted
+[4] Ethernet folder is deleted
+[5] Ethernet folder is deleted
+[6] Ethernet folder is deleted
+[7] Ethernet folder is deleted
+[8] Ethernet folder is deleted
+[9] Ethernet folder is deleted
+[10] Ethernet folder is deleted
+[11] Ethernet folder is deleted
+[12] Ethernet folder is deleted
+[CJF1] Ethernet folder is deleted
+[CJF2] Ethernet folder is deleted
+[MAT1] Ethernet folder is deleted
+[CON1] no English version
+[CJF4]  02016_16_01312 no longer required 
+[CJF5] (AEEV_AESV06_0081 with new tag  [CJF4] instead of [CJF5]   )
+
+[DIAGCR1] Removal related to the new files from the Supersetlist
+
+[DIAGCR2] Removal related to the new files from the Supersetlist
+[DIAGCR3] Removal related to the new files from the Supersetlist
+[DIAGCR4.1] Removal related to the new files from the Supersetlist
+[DIAGCR4.2] Removal related to the new files from the Supersetlist
+[DIAGCR4.3] Removal related to the new files from the Supersetlist
+[DIAGCR4.4] Removal related to the new files from the Supersetlist
+[DIAGCR7] Removal related to the new files from the Supersetlist
+[DIAGCR9] Removal related to the new files from the Supersetlist
+[DIAGCR10] Removal related to the new files from the Supersetlist
+
+[DIAGCR5] Removal related to the new files from the Supersetlist
+[DIAGFR5] Removal related to the new files from the Supersetlist
+
+[DIAGFR1] Removal related to the new files from the Supersetlist
+[DIAGFR2] Removal related to the new files from the Supersetlist
+[DIAGFR3] Removal related to the new files from the Supersetlist
+[DIAGFR4.1] Removal related to the new files from the Supersetlist
+[DIAGFR4.2] Removal related to the new files from the Supersetlist
+[DIAGFR4.3] Removal related to the new files from the Supersetlist
+[DIAGFR4.4] Removal related to the new files from the Supersetlist
+[DIAGFR7] Removal related to the new files from the Supersetlist
+[DIAGFR9] Removal related to the new files from the Supersetlist
+[DIAGFR10] Removal related to the new files from the Supersetlist
+[DIAG14]
+
+
+
+     Updated:
+[main]  ( 000786_22_02501 corrected  to 00786_22_02502)
+[CJF4]   (AEEV_AESV06_0081 with new tag  [CJF4]  instead of [CJF5]) 
+[TS2] (966498969BINDOR replaced by 01991_21_00401)
+[TS3c] (  00948_10_01988 replaced by  01991_22_01275  )
+ [PCP1] (00786_22_02478  replaced by 00786_22_03859  )
+[SQM16] 00786_22_02318 instead of  00786_18_02337
+[STA2](00990_22_00707  replaced by  00990_22_01187  )
+[GL1]
+
+[TS5]
+[VAL]
+[SQM01] 
+[STA21] 
+[FEA04]
+[STA37]
+[STA38]
+[CANCR09]
+[CANFR09]
+[MESH01]  
+[MESH04]
+[PCP2]
+[PCP3]
+[SQM18]
+[VAL5]
+[SQM23]
+[short2]
+[QGATE]
+[STA1]
+[CAD01]
+[STA1b]
+[DIAG12]
+[DIAGFR6] 
+[DIAGCRFL6]
+[DIAGCRFR6]
+[DIAGCRRL6] 
+[DIAGCRRR6]
+
+
+
+
+
+
+
+
+9.0 | 06/01/2023 | S.LFAZE | Spec Update 2 mid RFQ 
+
+REQUIREMENTS:
+     New:
+
+     Updated:
+GEN-RADARS2026-CSP-FUNC-000(1)
+GEN-VHL-CS-RADARS2026.060(1)
+GEN-VHL-CS-RADARS2026.061(1)
+GEN-RADARS2026-CSP-FUNC-005(1)
+GEN-RADARS2026-CSP-FUNC-006(1)
+GEN-FRONTRADAR2026-CSP-FUNC-019(2)
+GEN-CORNERRADARS2026-CSP-FUNC-020(2)
+GEN-RADARS2026-CSP-CONC-083(2)
+GEN-VHL-CS-RADARS2026.032(1)
+
+     DELETED:
+
+REFERENCE DOCUMENTS:
+
+     New:
+     Updated:
+
+01991_22_01996 
+01991_22_01994
+00998_22_02861
+01301_15_01026
+     Deleted:
+
+APPLICABLE DOCUMENTS:
+
+     New:
+[FEA09] ,[13], [STA39]
+     Updated:
+[FEA00], [FEA05], [FEA06], [MAIN],[DML], [CANFR09]
+[CANCR09],[SQM01]
+[FEA04] ( DRAFT tag deleted as no change to be taken into account in FEA 04 (REQ_029 B) , Version 3 to be considered) 
+ [canTS1] (TAG modified ( TS3c to canTS1))
+[canTS2] (TAG modified ( TS5 to canTS2))
+[LIST1] (TAG modified ( GL1 to LIST1))
+     Deleted:
+[TS2]  doc with reference 01991_21_00401
+CS.00193   (   replaced by 02016_16_01039  )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10.0 | 24/11/2023 | S.LFAZE | Spec Update for package   " KICK OFF release  "
+
+REQUIREMENTS:
+     New:
+GEN-RADARS2026-CSP-CONC-094(0)
+GEN-RADARS2026-CSP-FUNC-028(0)
+GEN-VHL-CS-RADARS2026.046(0)
+GEN-RADARS2026-CSP-CONC-095(0) 
+GEN-RADARS2026-CSP-CONC-096(0) 
+
+
+     Updated:
+GEN-VHL-CS-RADARS2026.032(2)
+GEN-VHL-CS_FRONTRADAR2026_021(1) 
+GEN-RADARS2026-CSP-CONC-083(3)
+GEN-RADARS2026-CSP-MECA-001(2)
+GEN-RADARS2026-CSP-MECA-003(2)
+GEN-RADARS2026-CSP-PHYS-066(2)
+GEN-RADARS2026-CSP-CONC-093(1)
+GEN-VHL-CS-RADARS2026.043(1)
+GEN-VHL-CS-RADARS2026.045(1)
+GEN-RADARS2026-CSP-FUNC-025(1)
+GEN-VHL-CS-RADARS2026.082(1)
+GEN-HW-ST-SSC.001(2)
+GEN-HW-ST-SSC.002(2)
+GEN-HW-ST-SSC.003(2)
+GEN-HW-ST-SSC.004(2)
+GEN-HW-ST-SSC.006(2)
+GEN-HW-ST-SSC.008(1)
+     DELETED:
+GEN-RADARS2026-CSP-FUNC-018(1)
+GEN-RADARS2026-CSP-FUNC-026(0)
+GEN-RADARS2026-CSP-FUNC-027(0)
+REFERENCE DOCUMENTS:
+
+     New:
+     Updated:
+01276_15_00086
+01301_15_01026
+00786_18_02440
+02016_13_02411
+00949_10_00484
+00786_22_00501
+20061_21_00967
+01276_11_00211
+01505_21_01349
+     Deleted:
+02017_12_03547
+
+APPLICABLE DOCUMENTS:
+
+     New:
+[CCTS]
+[CSAR]
+[DIAG36]
+[NET-PHY1]
+[SW3]
+[SW4]
+[SW5]
+[SW6]
+[SW7]
+[CYBER48]
+[CYBER49]
+[CYBER50]
+[CYBER51]
+
+Missing Spec from RFQ UPDATE 2 , mentioned in CCTS : 
+
+[CYBER37]
+[CYBER38]
+[CYBER39]
+[CYBER40]
+[CYBER41]
+[CYBER42]
+[CYBER43]
+[CYBER44]
+[CYBER45]
+[CYBER46]
+[CYBER47]
+[SW1]
+[SW2]
+
+
+
+
+     Updated:
+[MAIN]
+[SQM01]
+[COMTEC]
+[PMR]
+[SHORT1]
+[SHORT2]
+[SQM01]
+[SQM10]
+[STA12]
+[STA14]
+[STA15]
+[DML]
+[LIST1]
+[STA5]
+[PCP1]
+[STA2]
+[CYBER2]
+[CYBER8]
+[CYBER32]
+[DIAG21]
+[DIAG34]
+[EOL1]
+[21]
+[22]
+[NETTEST1]
+[STA39]
+[PDP]
+
+     Deleted:
+[CAD01]
+[MESH02]
+[MESH05]
+[MESH06]
+[STA38]
+[STA4]
+[13]
+[15]
+[CAN11]
+[CAN12]
+[NETTEST5]
+[PLN]
+
+11 |  29/01/2024 | S.LFAZE | Spec Update for package   " SW1 update release "
+
+REQUIREMENTS:
+     New:
+
+
+     Updated:
+GEN-HW-ST-SSC.007(0)  instead of GEN-VHL-CS_FRONTRADAR2026_021(0)    (duplicated REQ has been corrected)
+
+GEN-VHL-CS-RADARS2026.082(2)
+GEN-VHL-CS_Radars2026-MARQ-106(1)
+GEN-VHL-CS-RADARS2026.035(2)
+GEN-RADARS2026-CSP-FUNC-000(2)
+GEN-VHL-CS-RADARS2026.060(2)
+GEN-VHL-CS-RADARS2026.061(2)
+GEN-RADARS2026-CSP-FUNC-005(2)
+GEN-RADARS2026-CSP-FUNC-006(2)
+GEN-VHL-CS-RADARS2026.083(1)
+
+     DELETED:
+GEN-FRONTRADAR2026-CSP-FUNC-022(1)
+GEN-CORNERRADARS2026-CSP-FUNC-023(1)
+
+REFERENCE DOCUMENTS:
+
+     New: 
+
+     Updated:
+00786_18_02337
+01301_15_00075
+02014_22_00435
+00998_22_02861
+
+     Deleted:
+
+01991_22_01430
+01991_22_01427
+
+APPLICABLE DOCUMENTS:
+
+     New:
+[FEA13]
+[FEA14]
+[FEA15]
+     Updated:
+
+[COMTEC]
+[MAIN]
+[PMR]
+[SQM09]
+[SQM16]
+[STA15]
+[STA9]
+[DIAG12]
+[DML]
+[FEA00]
+[FEA03]
+[FEA05]
+[FEA06]
+[IUAV]
+[STA5]
+     Deleted:
+
+[synchroTS1]
+[synchroTS2]
+[synchroFRMAT]
+[synchroCRMAT]
+
+
+
+
+12
+
+
+
+ | 23/04/2024 | S.LFAZE | Spec Update for package   " SW2 update release "
+
+REQUIREMENTS:
+     New:
+GEN-RADARS2026-CSP-FUNC-009(0)
+GEN-RADARS2026-CSP-FUNC-010(0)
+GEN-RADARS2026-CSP-FUNC-011(0)
+GEN-RADARS2026-CSP-FUNC-012(0)
+GEN-RADARS2026-CSP-FUNC-013(0)
+GEN-RADARS2026-CSP-FUNC-014(0)
+GEN-RADARS2026-CSP-FUNC-015(0)
+GEN-RADARS2026-CSP-FUNC-016(0)
+GEN-VHL-CS-RADARS2026.043(2)
+
+     Updated:
+GEN-VHL-CS-RADARS2026.067(1)
+GEN-FRONTRADAR2026-CSP-FUNC-019(3)
+GEN-CORNERRADARS2026-CSP-FUNC-020(3)
+GEN-VHL-CS-RADARS2026.083(2)
+
+GEN-VHL-CS-RADARS2026.060(3)
+GEN-VHL-CS-RADARS2026.061(3)
+GEN-RADARS2026-CSP-FUNC-006(3)
+GEN-RADARS2026-CSP-FUNC-007(1)
+GEN-RADARS2026-CSP-FUNC-008(2)
+GEN-RADARS2026-CSP-CONC-083(4) [list1 ] is deleted  , it’s is included in [short 2] zip
+
+GEN-FRONTRADAR2026-CSP-MARQ-103(1)
+GEN-CORNERRADARS2026-CSP-MARQ-104(1)
+
+
+     DELETED:
+
+REFERENCE DOCUMENTS:
+
+     New: 
+
+     Updated:
+ 
+
+     Deleted:
+
+ 
+
+APPLICABLE DOCUMENTS:
+
+     New:
+[FEA17]
+[FEA18]
+[FEA19]
+[FEA20]
+
+ 
+     Updated:
+
+[CON3]
+[MAIN]
+[SQM01]
+[DML]
+[STA13]
+[DIAG12]
+[DML]
+[STA5]
+[FEA00]
+[FEA06]
+[FEA07]
+[FEA08]
+[FEA15]
+[DIAG36]
+
+NA :Will be used as Guidlines for Aptiv
+   [CANFR09]
+    [CANCR09]
+    [canTS2]
+    [canTS1]
+NA: 
+[CAN11a]
+[CAN11b]
+
+
+     Deleted:
+[LIST1]: " LIST 1  is a duplicated,Please refer to SHORT2_00786_22_02473 is regrouping many document including 
+   Stellantis_Green_List_transceivers_switches_01991_21_02190.xlsx => V7
+
+
+
+
+
+
+
+
+
+
+
+13
+
+
+
+ | 03/06/2024 | S.LFAZE | Spec Update for package   " SW2 update release 2 "
+
+REQUIREMENTS:
+     New:
+  
+
+     Updated:
+ GEN-VHL-CS-RADARS2026.043(3)
+ 
+ 
+
+
+     DELETED:
+
+REFERENCE DOCUMENTS:
+
+     New: 
+
+     Updated:
+ 
+
+     Deleted:
+
+ 
+
+APPLICABLE DOCUMENTS:
+
+     New:
+ [DIAG37]
+
+ 
+     Updated:
+the new DIAG FOTA standards 
+[DIAG27]
+[DIAG28]
+[DIAG29]
+[DIAG30]
+[DIAG31]
+[DIAG33]
+[DIAG34]
+[DIAG38] Tag   [DIAG36]  replaced by [DIAG38] same as CVM
+[DIAG37]
+
+CDD / DTC Will be updated based on new standard :
+[DIAGFR6]
+[DIAGCRFL6]
+[DIAGCRFR6]
+[DIAGCRRL6]
+[DIAGCRRR6]
+[DIAG12]
+ 
+ 
+
+
+     Deleted:
+ 
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 10:
+
+Table of contents
+
+Table of updates	2
+Table of contents	14
+1	PURPOSE	17
+2	SCOPE	17
+2.1	SYSTEM DEVELOPMENT CONTEXT	17
+2.2	GENERAL DESCRIPTION OF THE SYSTEM	18
+2.2.1	FUNCTIONAL SYSTEM ROLE	18
+2.2.2	PHYSICAL SYSTEM ARCHITECTURE	18
+3	QUOTED DOCUMENTS	20
+3.1	APPLICABLE DOCUMENTS	20
+4	TERMINOLOGY	33
+4.1	GLOSSARY	33
+4.1.1	DEPENDABILITY VOCABULARY	33
+4.1.2	OTHER GENERIC TERMS	37
+4.2	ACRONYMS	37
+1.1. WRITING CONVENTION	38
+5	REQUIREMENTS	40
+5.1	FUNCTIONAL REQUIREMENTS	40
+5.1.1	Degraded mode	41
+5.2	PERFORMANCE REQUIREMENTS	41
+5.3	COMPONENT ARCHITECTURE	41
+5.3.1	General design constraints	41
+5.3.2	Configuration and diversity	42
+5.4	EXTERNAL INTERFACES REQUIREMENTS	42
+5.4.1	MECHANICAL INTERFACES	42
+5.4.2	ELECTRICAL INTERFACE AND POWER MANAGEMENT	43
+5.4.2.1	Voltage range	43
+5.4.2.2	Voltage ripple	44
+5.4.2.3	Consumption in standby state	45
+5.4.2.4	Consumption in wakeup mode	45
+5.4.2.5	EE components consumption during the operating phases	46
+5.4.2.6	Current profiles of the EE components at powering on (IMST)	46
+5.4.2.7	EE components current profiles Inom and I Pire-cas (Worst case)	48
+5.4.2.8	EE components current profiles on Real cycle or on customer use	49
+5.4.2.9	Power interfaces of the EE components power supplies	49
+5.4.2.10	Electrical Powering on	51
+5.4.2.10.1	Relay bounces	51
+5.4.2.10.2	EE components power supplied in +Perm (+BAT_CSP)	51
+5.4.2.10.3	EE components with switching power supply	52
+5.4.2.11	EE components behavior in the startup phase	52
+5.4.2.12	EE components resistance in the restart phase (STT vehicle) :	52
+5.4.2.13	Electrical Powering off	53
+5.4.2.14	EE components reliability in current overload mode during standby phase	54
+5.5	COMPONENT OUTPUT REQUIREMENTS	54
+5.6	PERFORMANCE REQUIREMENTS	56
+5.7	OPERATIONAL REQUIREMENTS	56
+5.7.1	OPERATIONAL REQUIREMENTS – ETI REQUIREMENTS FOR EEE	56
+5.7.2	Mission profile	57
+5.7.2.1	Data for calculation of failure occurrences	57
+5.7.3	Thermal profile	59
+5.7.4	Lifetime	61
+5.7.4.1	Confidence level for dependability and reliability requirements calculation	61
+5.7.4.2	Confidence level for dependability requirements calculation	61
+5.7.4.3	Requirement for endurance tests	62
+5.7.5	Ergonomics and human factors	62
+5.7.5.1	Requirements on "random noise"	62
+5.7.6	RAMS requirements	62
+5.7.6.1	Safety requirements	62
+5.7.6.1.1	Failure modes	63
+5.7.6.1.2	Mechanisms, safety diagnosis and rehabilitation	63
+5.7.6.1.3	SOTIF Safety Of The Intended Functionality	63
+5.7.6.2	Availability requirements	63
+5.7.6.2.1	Failure modes	63
+5.7.6.2.2	Dreaded Events for usage, threats, aggression	63
+5.7.6.3	Reliability requirements	63
+5.7.6.3.1	Failure modes	63
+5.7.6.3.2	Dreaded Events for usage, threats, damages	64
+5.7.6.3.3	Failure modes	64
+5.7.6.4	Validation requirements	64
+5.7.6.4.1	Required confidence level	64
+5.7.6.4.2	Demonstration of Dependability requirements	64
+5.7.6.5	Maintainability requirements	65
+5.7.6.5.1	Diagnosis	65
+5.7.6.5.2	Factory alignment and control	66
+5.7.6.5.3	Repair capability and interchangeability in after sale	66
+5.7.7	Product quality	66
+5.7.7.1	Estimated incidence rate	66
+5.7.7.2	Generic list of EE deliverables and part maturity	68
+5.7.7.3	Quality convergence requirement in development	68
+5.7.8	Protection against hostility	69
+5.7.9	Resources reserve capacity of the system	69
+5.7.10	Document requirements	70
+5.7.11	Diagnostic requirements for factory	70
+5.7.12	Assembly requirements	70
+5.7.13	Regulation and consumerism	71
+5.7.14	Weight and other physical characteristics	71
+5.7.15	Design and Manufacturing	71
+5.7.15.1	REQUIREMENTS FOR CONNECTOR	71
+5.7.15.2	Studies and/or imposed solutions	73
+5.7.15.3	Materials	74
+5.7.15.4	Manufacturing	74
+5.7.15.5	Marking of the Components or Parts	74
+5.7.16	Traceability and configuration	76
+5.7.17	Transportability, storage, and packaging	76
+5.7.18	Flexibility and extension	76
+5.7.19	Withdrawal	76
+5.7.20	Environment conditions	76
+5.8	INTEGRATION AND VALIDATION REQUIREMENTS	78
+Appendix A: “title”	79
+
+
+----------------------------------------------------------------------------------------
+Chunk 11:
+[Heading 1] PURPOSE
+The goal of the present CS (=Component Specification) is:
+•	to list and refine the requirements that have an impact on the FrontRadar2026
+•	to list and refine the requirements that have an impact on the CornerRadars2026
+ Product functionality,
+•	locate the Product in its environment via the contextual diagram,
+•	specify the external interfaces,
+•	to specify the performance, operational, constraint, integration, and validation requirements
+
+For each application project, this general-purpose document is used as a reference ST to the corresponding applicative ST which specifies the requirements actually applying to the project.
+
+----------------------------------------------------------------------------------------
+Chunk 12:
+[Heading 1] SCOPE
+
+----------------------------------------------------------------------------------------
+Chunk 13:
+[Heading 2] SYSTEM DEVELOPMENT CONTEXT
+
+In this document, the front radar is called FrontRadar2026 or FR2026, the corner radars are called CornerRadars2026 or CR2026, requirement applicable to both components are called Radars2026.
+
+Precision for corner radars positions, from driver point of view:
+FL: front left
+FR: front right
+RL: rear left
+RR: rear right
+
+This TS describes the requirements applicable to every Radars2026 system developed within the framework of a vehicle project of the STELLANTIS group. These requirements express the need of the stakeholder.
+
+Presentation of the system purpose:
+This CS describes the requirements applicable to every Radars2026 system developed within the framework of a vehicle project of Stellantis.
+
+The Radars2026 is a forward-looking camera that analyses the environment of the host vehicle and broadcast on CAN or ethernet (option) networks data about and decisions based on this environment
+
+The Radars2026 are components of the ADAS vehicle system which contributes to reduce the number of traffic accidents by alerting the driver and/or actuating other systems of the vehicle (steering system, braking system…)
+
+The Radars2026 can be in charge of:
+-responsible to fulfill features required in [FEA00], fusion based on the front camera RADARS2026
+-sending raw point cloud on ethernet
+-sending processed data on CAN FD
+EE& functional architecture to converge during the RFQ
+
+In this document, the front radar is called FrontRadar2026 or FR2026, the corner radars are called CornerRadars2026 or CR2026, requirement applicable to both components are called Radars2026.
+
+Precision for corner radars positions, from driver point of view:
+FL: front left => CRFL
+FR: front right => CRFR
+RL: rear left => CRRL
+RR: rear right => CRRR
+
+
+----------------------------------------------------------------------------------------
+Chunk 14:
+[Heading 2] GENERAL DESCRIPTION OF THE SYSTEM
+
+----------------------------------------------------------------------------------------
+Chunk 15:
+[Heading 3] FUNCTIONAL SYSTEM ROLE
+
+The functional role is described in [FEA00].
+
+Just taking advantage of this chapter to precise following features invisible for the driver are also necessary:
+-	Defects Event History (DEH)
+-	ADAS events recordings (AER)
+-	Flash over the air (FOTA): full capability requested to add the feature or update it entirely (e.g. new kind of detection to adapt pACC algos)
+-	V2X: predisposal is requested (HW already compliant and dev costs impacts) this feature is necessary in case of need to reach NCAP2027 target
+
+
+----------------------------------------------------------------------------------------
+Chunk 16:
+[Heading 3] PHYSICAL SYSTEM ARCHITECTURE
+
+The physical scalability is described in [FEA00].
+No heater requested for this project: the availability must be at the right level without heating system.
+
+
+----------------------------------------------------------------------------------------
+Chunk 17:
+[Table]
+[Heading 3] PHYSICAL SYSTEM ARCHITECTURE
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-FUNC-SMALL-001(0) | The functional specifications describe the functional need at ADAS subsystem level.
+The supplier is responsible to:
+-describe functional architecture compatible with the component (Radar centric or MFCM centric. Networks. The choice shall be explained/motivated by supplier)
+-deliver to Stellantis the component contribution to requirements
+[
+-what is necessary from other sensors to fulfill fusion in the component (kind of network signals + KPIs)
+OR
+-what is delivered by the component on network towards the fusion sensor to fulfill requirements (kind of network signals + KPIs)
+] | -
+
+----------------------------------------------------------------------------------------
+Chunk 18:
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 19:
+[Heading 1] QUOTED DOCUMENTS
+
+
+----------------------------------------------------------------------------------------
+Chunk 20:
+[Heading 2] APPLICABLE DOCUMENTS
+
+
+----------------------------------------------------------------------------------------
+Chunk 21:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 1)
+[TAG] | Reference | Name | Revision
+[CAD01] | 00786_22_02483 | CAD01_00786_22_02483_CAD_Checklist_for_supplier_Radars-2026 | 2.0
+[CAD02] | 00949_17_00902 | Generic Nota for drawing | 5.0
+[DJC1] | AEEV_AESV07_0302 / 00948_10_00404 | DJC_ERL_CANHS Template | 4.0
+[DJC2] | 00948_10_02202 | DJC_GP_CAN Template | 1.0
+[COMTEC] | 02017_19_01094 | FIELD CLAIM ANALYSIS PROCEDURE FOR ELECTRONIC PARTS | 10.0
+[CON1] | 9647750099 | GTS Design rules for connections | 6.0
+[CON3] | 00786_22_02513 | CON3_00786_22_02513_R008476372 | 2.0
+[CON4] | 00786_22_02514 | CON4_00786_22_02514_cd-r013751515_lv1_2022-02-18_confidential | 1.0
+[CON5] | 9250901499 | Design rules for harnesses GTS | 16
+[DIAG16] | 00786_22_02482 | DIAG16_00786_22_02482_CONFIDENTIALITY_AGREEMENT_Radars-2026 | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 22:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 2)
+[TAG] | Reference | Name | Revision
+[DIAG20] | 01301_16_00979 | ODX 2.0.1 authoring guidelines | 2.0
+[DIAGFR6] | 00786_22_02495 | DIAGFR6_00786_22_02495_diag_messaging_Front_RADAR | 2.0
+[DIAGCRFL6] | 00786_22_02494 | DIAGCRFL6_00786_22_02494_diag_messaging_Corner_RADAR_FL | 2.0
+[DIAGCRFR6] | 00786_22_02496 | DIAGCRFR6_00786_22_02496__diag_messaging_Corner_RADAR_FR | 2.0
+[DIAGCRRL6] | 00786_22_02497 | DIAGCRRL6_00786_22_02497_diag_messaging_Corner_RADAR_RL | 2.0
+[DIAGCRRR6] | 00786_22_02498 | DIAGCRRR6_00786_22_02498_diag_messaging_Corner_RADAR_RR | 2.0
+[DIAG8a] | 96 298 009 99 | TS Encryption function part 1 | After signature
+[DIAG8b] | 96 298 108 99 | TS Encryption function part 2 | After signature
+[ETS01] | 00786_22_02479 | ETS01_00786_22_02479_EMC_RADARS_SMALL_ADAS2026 | 1.0
+[ETS02] | 00786_22_02040 | ETS02_00786_22_02040_STE_RADAR_SMALL_ADAS2026 | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 23:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 3)
+[TAG] | Reference | Name | Revision
+[IND01] | 01454_10_00213 | Industrial test coverage analysis | 3.0
+[M19] | ISO 26262 | Road vehicles – Functional safety | 1:2011
+[M21] | ISO 21448 | Safety of the intended functionality | DIS:2019
+[MAIN] | 00786_22_02502 | MAIN_000786_22_02502_CS_Radars-2026 | 12.0
+[MESH01] | 01005_16_01617 | Numerical Requirements Summary - CRASH & NVH | 43.0
+[MESH02] | 01363_10_00225 | Passive safety fine meshing and acceptance report | 15.0
+[MESH03] | 01005_13_00743 | Numerical quality criteria for PSA crash models (radioss format) | 10.0
+[MESH04] | MOSCIE_08_1509 | Crash Numerical Standard : Quality file | 67.0
+[MESH05] | 01005_19_01264 | CAE-Deliveries_EE-Housings_Boitiers-EE | 3.0
+[MESH06] | 01005_19_01605 | LS DYNA Supplier Model Requirements | 3.0
+
+----------------------------------------------------------------------------------------
+Chunk 24:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 4)
+[TAG] | Reference | Name | Revision
+[N1] | B21 7050 | Connectors general requirements | 6.0
+[N2] | B12 5210 | Flat electrical connection tabs | 1.0
+[N22] | 01446_22_00053 | TRADEMARK AND PRODUCT BRAND IDENTIFICATION ON PARTS (CS-11000 Ind S) | 4.0
+[N29] | NF EN 800 | Bar codes. Specifications regarding the symbols used. | Last published version
+[N3] | B12 5220 | Metallic coating of electrical contacts | 1.0
+[N30] | B20 0250 | Regulated substances/materials and restrictions of use within the PSA Peugeot Citroën group | 3.0
+[N4] | B25 1110 | STN classical electrical connectors | 3.0
+[N5] | B13 3116 | EXPRESSION OF STANDARD PARAMETERS THREAD - TIGHTENING TORQUES AND TOLERANCE INTERVALS | 1.0
+[N40] | B21 7100 | Specifications concerning the environment of electrical and electronic equipment general characteristics | 6.0
+[N41] | B21 7110 | Environment specifications of electric and electronic equipment electrical characteristics | 5.0
+
+----------------------------------------------------------------------------------------
+Chunk 25:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 5)
+[TAG] | Reference | Name | Revision
+[N42] | B21 7120 | Environment specification of electrical and electronic equipment mechanical characteristics | C
+[N43] | B21 7130 | Specifications concerning the environment of electrical and electronic equipment climatic and chemical characteristics | E
+[NM41] | D14 1428 | ANTI-CHIP PRODUCTS PLASTICS – RUBBERS
+RESISTANCE TO SHOT BLASTING | 1.0
+[NM43] | D42 1235 | RUBBER AND PLASTIC PARTS
+BEHAVIOUR TO IMPACT
+(FALLING WEIGHT METHOD) | 1.0
+[PCP1] | 00786_22_02478 | PCP1_00786_22_02478_CTF-PCP_Radars-2026 | 1.0
+[PCP2] | 20061_21_00966 | Copy PCP to RCM (tool) | 4.0
+[PCP3] | 20061_21_00030 | New simplified template RCM without PCP | 12.0
+[PMR] | 00786_22_02499 | PMR_20417_23_00970_Risk_managment_plan_Radars-2026 | 5.0
+[QGATE] | 02017_15_00206 | CDAS_delivery_meeting_criteria | 12.0
+[R1] | R99 1010 | ELECTRONIC ELECTRIC COMPONENT
+COCKPIT - DRIVER'S CAB -
+INFORMATION AND ENERGY MANAGEMENT | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 26:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 6)
+[TAG] | Reference | Name | Revision
+[SHORT1] | 00786_22_02474 | SHORT1_00786_22_02474_Shortage_Risk_Assessment-Radars-2026 | 2.0
+[SHORT2] | 00786_22_02473 | SHORT2_00786_22_02473 | 3.0
+[SHORT3] | 00786_22_02531 | SHORT3_00786_22_02531_MCU_greenlist | 1.0
+[SQM00] | 01276_15_00082 | Supplier Quality Manual (SQM) | 22.0
+[SQM01] | 00786_22_02501 | SQM01_00786_22_02501_GEED_Radars-2026 | 8.0
+[SQM09] | 00948_10_01583 | Template for Bill of marterial for Mechanical and Electronics parts | 6.0
+[SQM10] | 00786_22_02468 | SQM10_00786_22_02468_Template_DIA_ISO26262_Radars-2026 | 2.0
+[SQM16] | 00786_22_02318 | SQM16_00786_22_02318_ADAS_Part_request_form | 2.0
+[SQM18] | 00994_09_00041 | Guide for reading the reliability and durability requirements intended for the suppliers | 4.0
+[SQM19] | 00786_22_02480 | SQM19_00786_22_02480_RAMS_durability_table-Example_Radars-2026.xls | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 27:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 7)
+[TAG] | Reference | Name | Revision
+[SQM20] | 02033_17_00001 | RAMS Customer Requirements - Generic Table | 2.0
+[STA1] | 00786_22_02472 | STA1_00786_22_02472_SW_development_rules_safety_management_Radars-2026 | 3.0
+[STA10] | 00893_18_00300 | Crimping TS (replaces 9634115099 B) | 4.0
+[STA12] | 01552_13_10889 | STL_ETI_RA_Test_Procedures_Pack 2023 | 13.0
+[STA14] | 01552_13_01824 | STL_ETI_Methodology_Pack 2023 | 13.0
+[STA15] | 20978_23_00040 | STL_ETI_RA_Justification.Tools | 5.0
+[STA13] | 01272_14_00005 | Supplier Quality & Development Processes and Measurements Procedure | 26.0
+[STA16] | 01276_10_00882 | Vehicle Quality Assessment: Principles, reference documents and rules of classification of defects | 1.0
+[STA1b] | 00786_22_02471 | STA1b_00786_22_02471_SW_guidelines_Radars-2026 | 2.0
+[STA2] | 00990_22_00707 | Functional drawing of the component
+Functional volume STLA - Radars | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 28:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 8)
+[TAG] | Reference | Name | Revision
+[STA2] | 00786_22_02394 | STA2_00786_22_02394_Radar-P027708527 | 2.0
+[STA3] | 00786_22_02470 | STA3_00786_22_02470_part_identification_symbol_Radars-2026 | 1.0
+[STA6] | 01376_09_00151 | Lead free information Request
+Questionnaire PSA_230309 | 1.0
+[STA9] | 01266_09_00137 | Creation of a conformity label | 9.0
+[STA17] | 01552_11_05732 | Expected elements in test plans and test reports regarding standards B21 7120 et B21 7130 | 2.0
+[VAL1] | 00786_19_00061 | Validation and contents expected for ECU deliveries | 24.0
+[VAL2] | 00786_19_03018 | Validation KPI_Supplier Status | 1.0
+[VAL3] | 01290_10_00147 | Masque Auto-évaluation A109000 | 16.0
+[VAL4] | 00786_22_01630 | Template : Detailed_Supplier_test_review | 1.0
+[VAL5] | 00786_22_02013 | Supplier_assistance_requirements_for_HIL ADAS | 5.0
+
+----------------------------------------------------------------------------------------
+Chunk 29:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 9)
+[TAG] | Reference | Name | Revision
+[VAL6] | 00786_22_02293 | xIL Integration | 1.0
+[NM48] | B35 0010 | Standard CEM and electric test plan | 3.0
+[TierN] | 00786_22_02477 | TierN_00786_22_02477_Suppliers_Management_Radars-2026 | 1.0
+[SQM22] | 01536_20_00424 | Global Guidance Supplier Monitoring A3 Dashboard | 2.0
+[CAN11a] | TBD | CAN functionnal messaging front radar | NA
+[CAN11b] | TBD | CAN functionnal messaging corner radars | NA
+
+[CAN13] | 01554_10_00970 | STE_SECURISATION_TRAMES_9659842699_I | 
+[DIAG12] | 00786_22_02467 | DIAG12_00786_22_02467_DTC_matrix_Radars-2026 | 3.0
+[DIAG13] | TBD | UDS App services | Will come later
+[SQM21] | 00786_22_00977 | Technical_information_sensor_calibration | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 30:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 10)
+[TAG] | Reference | Name | Revision
+[NCAP] | TBD | NCAP targets | Will come later
+[FEA01] | 02043_20_04229 | SSP CMR Diagnose and Repair EE RSP-0003957 | 2.0
+[SQM23] | 00839_22_00107 | Adas requirements for 2026 | 3.0
+[STA21] | 00786_22_02055 | STA21_00786_22_02055_ADAS_S_2026_RFQ_SW_requirements_and_SOW | 9.0
+[DML] | 00786_22_02466 | DML_00786_22_02466_DML_Radars-2026 | 12.0
+[TS2] | 966498969BINDOR | Technical Specification – Network Interface Domain  « Centralised CAN Network Life Phases » | 12.0
+[TS3] | 00948_10_01988 | TS CAN network Communication Rules | 4.0
+[CANFR09] | 00786_22_02493 | CANFR09_00786_22_02493_FRONT_RADAR_CAN_application_matrix | 4.0
+[CANCR09] | 00786_22_02492 | CANCR09_00786_22_02492_CORNER_RADARS_CAN_Application_Matrix | 4.0
+[canTS2] | 00948_09_01719 | CAN HS TS – Physical layer and protocol layer (RSP-0000258) | 8.0
+
+----------------------------------------------------------------------------------------
+Chunk 31:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 11)
+[TAG] | Reference | Name | Revision
+[CJF3] | 02016_16_01334 | Compliance Justification File CAN transciever multiplexing components | 3.0
+[CJF4] | 02016_16_01312 | Compliance Justification File CAN LS PH multiplexing components | 2.0
+[CJF5] | AEEV_AESV06_0081 | Compliance Justification File LS clock multiplexing components | 3.0
+[DIAGCR5] | 00786_22_02488 | DIAGCR5_00786_22_02488_conformity_matrix_Diagnostic_for_CornerRadars-2026 | 3.0
+[DIAGFR5] | 00786_22_02487 | DIAGFR5_00786_22_02487_conformity_matrix_Diagnostic_for_FrontRadar-2026 | 3.0
+[DIAGFR1] | 01991_21_01327 | DIAGFR1_01991_21_01327_v1.0_DC_TI_701_TS_Application_Layer_for_Diagnostic | 1.0
+[DIAGFR2] | 01991_21_01328 | DIAGFR2_01991_21_01328_v1.0_DC_TI_702_TS_UDS_generic_mechanisms.docx | 1.0
+[DIAGFR3] | 01991_21_01329 | DIAGFR3_01991_21_01329_v1.0_DC_TI_703_TS_UDS_Configuration.docx | 1.0
+[DIAGFR4.1] | 01991_21_01460 | DIAGFR4.1_01991_21_01460_V2_0_New_STELLANTIS_Reprogramming_Procedure_Part_1 | 2.0
+[DIAGFR4.2] | 01991_21_01461 | DIAGFR4.2_01991_21_01461_V2_0_New_STELLANTIS_Reprogramming_Procedure_Part_2_Internal_Mechanisms.docx | 2.0
+
+----------------------------------------------------------------------------------------
+Chunk 32:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 12)
+[TAG] | Reference | Name | Revision
+[DIAGFR4.3] | 01991_21_01462 | DIAGFR4.3_01991_21_01462_V2_0_New_STELLANTIS_Reprogramming_Procedure_Part_3 | 2.0
+[DIAGFR4.4] | 01991_21_01463 | DIAGFR4.4_01991_21_01463_V2_0_New_STELLANTIS_Reprogramming_Procedure_Part_4 | 2.0
+[DIAGFR7] | 01991_21_01330 | DIAGFR7_01991_21_01330_v1.0_DC_TI_707_TS_Electronic_Integration_and_putting_ECUs_into_operation | 1.0
+[DIAGFR9] | 01991_21_01331 | DIAGFR9_01991_21_01331_v1.0_Monitors_manager_for_non_powertrain_non_OBD_ECUs | 1.0
+[DIAGFR10] | 01991_22_00729 | DIAGFR10_01991_22_00729_V1_UDS_Services_for_Security_Access | 1.0
+[1] | 02016_15_03217 | Technical Specification of Network Interface: ETHERNET@100Mb/s BROADR-REACH – PHYSICAL LAYER | 11.0
+[2] | 01991_21_01603 | Technical Specification of Network Interface MAC layer protocol | 2.0
+[3] | 02016_15_06864 | Technical Specification of Network Interface TCP IP network protocols | 14.0
+[4] | 01991_21_01604 | Technical Specification of Network Interface of Ethernet management protocol and TCPIP Supervision | 2.0
+[5] | 01991_21_01601 | Technical Specification of Network Interface for Application layer protocols | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 33:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 13)
+[TAG] | Reference | Name | Revision
+[6] | 02016_16_02290 | Technical Specification of Ethernet Network Life Phases depending on CAN network | 7.0
+[7] | 01991_21_00398 | Technical Specification of Network Interface TCP IP network protocols specific requirements | 2.0
+[9] | 01991_21_01600 | Technical Specification of Network interface for an Ethernet switch | 1.0
+[10] | 01991_21_01602 | Technical Specification of Network interface for AVB and TSN protocols | 1.0
+[11] | 02016_16_01959 | Technical Specification - Network Interface Domain Ethernet Network Life Phases | 13.0
+[12] | 01991_22_00653 | Technical Note: MacSec, TC10, Eth 10Base-T1s for Ethernet ports | 1.0
+[MAT1] | 00786_22_02486 | MAT1_00786_22_02486_Ethernet_Conformity_Matrix_for_RADARS | 1.0
+[LIST1] | 01991_21_02190 | LIST1_01991_21_02190_Stellantis_green_list_transceivers_switches | 7.0
+[CJF1] | 02016_15_08510 | Conformity Justification File (CJF) applied to the clock of the transceiver | 1.0
+[CJF2] | 02016_15_08511 | Conformity Justification File (CJF) applied to the common mode choke | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 34:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 14)
+[TAG] | Reference | Name | Revision
+[VAL] | 02016_15_06111 | Validation and contents expected for low layers deliveries | 4.0
+[synchroTS1] | 01991_19_00595 | ST Network Time Synchronization (RSP-0003561) | 8.0
+[synchroTS2] | 01991_21_01128 | Time Synchronisation Architecture Specification (RSP-0006429) | 2.0
+[synchroFRMAT] | 00786_22_02490 | synchroFRMAT_00786_22_02490_NetworkTimeSynchronization_conformity_matrix_FrontRadar-2026 | 1.0
+[synchroCRMAT] | 00786_22_02H489 | synchroCRMAT_00786_22_02489__NetworkTimeSynchronization_conformity_matrix_CornerRadars-2026.xlsx | 1.0
+[DIAG14] | 01991_21_02301 | TS UDS Services for Network Time Synchronisation | 2.0
+[STA37] | 20300_22_03484 | STA37_20300_22_03484_Radars_assembly_requirements .xlsx | 2.0
+[STA38] | 00786_22_02469 | STA38_00786_22_02469_STPP_EXIG._PROJET_MONTAGE_RADARS.xlsm | 2.0
+[FEA00] | 00998_22_02861 | Middle_range_sensors_RFQ_for_STLA-Small-Vehicle_level_global_requirements.docx | 7.0
+[FEA02] | 00998_22_02826 | xIL Simulation requirements for ADAS | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 35:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 15)
+[TAG] | Reference | Name | Revision
+[FEA03] | 00998_22_02697 | SOTIF RASI for buy features | 2.0
+[FEA04] | 00998_22_02673 | Perception requirements | 3.0
+[FEA05] | 00998_22_02859 | AEB Service Specification | 6.0
+[FEA06] | 20417_23_01098   | AEB Vehicle Functional Design | Last version in DOCINFO
+
+[FEA07] | 20417_24_00333 | LCW Service Specification
+ | Last version in DOCINFO
+[FEA08] | 20417_24_00337 | RCTA/RCTB Service Specification | Last version in DOCINFO
+
+[N24] | B20 1315 | Supply of plastic parts identification marking of material for recycling purposes | 2.0
+[RED] | 2014/53/EU | UE Radio Equipment Directive (RED) | Last published version (or other if specific info)
+[DIAGCR1] | 01991_21_01333 | DIAGCR1_01991_21_01333_v1.0_DC_TI_701_TS_Application_Layer_for_Diagnostic.docx | 1.0
+[DIAGCR2] | 01991_21_01334 | DIAGCR2_01991_21_01334_v1.0_DC_TI_702_TS_UDS_generic_mechanisms | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 36:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 16)
+[TAG] | Reference | Name | Revision
+[DIAGCR3] | 01991_21_01335 | DIAGCR3_01991_21_01335_v1.0_DC_TI_703_TS_UDS_Configuration | 1.0
+[DIAGCR4.1] | 01991_21_01486 | DIAGCR4.1_01991_21_01486_V2_0_New_STELLANTIS_Reprogramming_Procedure_Part_1.docx | 2.0
+[DIAGCR4.2] | 01991_21_01487 | DIAGCR4.2_01991_21_01487_V2_0_New_STELLANTIS_Reprogramming_Procedure_Part_2_Internal_Mechanisms | 2.0
+[DIAGCR4.3] | 01991_21_01488 | DIAGCR4.3_01991_21_01488_V2_0_New_STELLANTIS_Reprogramming_Procedure_Part_3.docx | 2.0
+[DIAGCR4.4] | 01991_21_01489 | DIAGCR4.4_01991_21_01489_V2_0_New_STELLANTIS_Reprogramming_Procedure_Part_4.docx | 2.0
+[DIAGCR7] | 01991_21_01336 | DIAGCR7_01991_21_01336_v1.0_DC_TI_707_TS_Electronic_Integration_and_putting_ECUs_into_operation.docx | 1.0
+[DIAGCR9] | 01991_21_01337 | DIAGCR9_01991_21_01337_v1.0_Monitors_manager_for_non_powertrain_non_OBD_ECUs | 1.0
+[DIAGCR10] | 01991_22_00728 | DIAGCR10_01991_22_00728_V1_UDS_Services_for_Security_Access.docx | 1.0
+[STA4] | 00786_22_02509 | STA4_00786_22_02509_Integration_Requirement_for_SMALL | 2.0
+
+
+[IUAV] | 00951_22_00840 | IUAV_00951_22_00840_IPRW_REQUIREMENTS_Factory_FOR_ADAS_2026_Front_RADAR.docx | 4.0
+
+----------------------------------------------------------------------------------------
+Chunk 37:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 17)
+[TAG] | Reference | Name | Revision
+[N44] | 01446_18_00735 | FOURNITURES SERIE PRESCRIPTIONS GENERALES APRES-VENTE
+GLOBAL SUPPLIER SERVICEABILITY REQUIREMENTS | 1.0
+[SQM24] | 00949_15_00905 | Serial_life_SW_modification_checklist | 3.0
+[STA5] | 00786_22_03650 | Generic_CDCi_RADAR_FRONT_CORNER_ADAS_SMALL.xlsm | 8.0
+[TS2] | 01991_21_00401 | [RGN] CAN Centralised Network Life Phases (RSP-0000223) | 1.0
+[canTS1] | 01991_22_01275
+ | CAN Communication layer
+ | 1.0
+[TS7] | 01991_21_00394 | [RGN] TS of CAN centralized network supervision (RSP-0004684) | 8.0
+[CJF4] | AEEV_AESV06_0081 | Compliance Justification File LS clock multiplexing components | 3.0
+[PCP1] | 00786_22_03859
+ | PCP1_00786_22_03859_CTF-PCP_Radars-2026.xlsm | 2.0
+[STA2] | 00990_22_01187 | Functional drawing of the component
+Functional volume STLA - Radars | 3.0
+[SHORT4] | 00786_22_03987 | SHORT4_00786_22_03987_MCU_DeviationRequest | 1.0
+
+----------------------------------------------------------------------------------------
+Chunk 38:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 18)
+[TAG] | Reference | Name | Revision
+[CYBER1] | CS.00098 | FCA Global Vehicle Cybersecurity Strategy: Hardware Trust Anchor | B
+[CYBER2] | CS.00010/05 | DESIGN REVIEW FOR ELECTRONIC SYSTEMS - CYBERSECURITY | C
+[CYBER4] | CS.00092 | FCA Global Vehicle Cybersecurity Strategy : Authenticated Diagnostics | B
+[CYBER5] | CS.00093 | FCA Global Vehicle Cybersecurity Strategy : Authenticity of Firmware | A
+[CYBER6] | CS.00094 | FCA GLOBAL VEHICLE CYBERSECURITY CRYPTOGRAPHIC INFRASTRUCTURE | A
+[CYBER7] | CS.00095 | FCA GLOBAL VEHICLE CYBERSECURITY STRATEGY: AUTHENTICITY OF IN-VEHICLE MESSAGING | A
+[CYBER8] | CS.00097 | FCA GLOBAL VEHICLE CYBERSECURITY STRATEGY: CYBERSECURITY ASSURANCE | B
+[CYBER9] | CS.00098/02 | GLOBAL VEHICLE CYBERSECURITY STRATEGY: HARDWARE PROTECTED SECURITY ENVIORNMENT (HPSE) | B
+[CYBER10] | CS.00130 | FCA Global Vehicle Cybersecurity Strategy: Firmware Over-The-Air | A
+[CYBER11] | CS.00158/02 | ECU Secure lifecycle | -
+
+----------------------------------------------------------------------------------------
+Chunk 39:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 19)
+[TAG] | Reference | Name | Revision
+[CYBER12] | CS.00165 | ECU Identity Security Requirements | B
+[CYBER14] | CS.00172 | KEY NEGOTIATION REQUIREMENTS & PROCEDURE FOR THE ATLANTIS HIGH ARCHITECTURE | B
+[CYBER15] | CS.00174 | FCA Global Vehicle Cyber Security ECU Segmentation and Secure Separation | B
+[CYBER37] | CS.00188 | SECURE LVDS IMPLEMENTATION | B
+[CYBER16] | CS.00192 | FCA GLOBAL VEHICLE CYBERSECURITY STRATEGY: AUTHENTICATED COMMAND | -
+[CYBER17] | CS.00209 | ECU IDENTITY CERTIFICATE INSTALLATION AT THE SUPPLIER FACTORY | A
+[CYBER18] | CS.00212 | Secure Logging | -
+[CYBER19] | SD.00015 | Binary Format for a RSA-2048 Signed Firmware Block | C
+[CYBER20] | SD.00015/01 | GLOBAL VEHICLE CYBER SECURITY:BINARY FORMAT FOR A RSA-2048 SIGNED FIRMWARE BLOCK | A
+[CYBER21] | SD.00015/02 | GLOBAL VEHICLE CYBER SECURITY: BINARY FORMAT FOR A RSA-2048 SIGNED CERTSTORE BLOCK | -
+
+----------------------------------------------------------------------------------------
+Chunk 40:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 20)
+[TAG] | Reference | Name | Revision
+[CYBER22] | SD.00015/03 | GLOBAL VEHICLE CYBER SECURITY: BINARY FORMAT FOR A RSA-2048 SIGNED DCL BLOCK | -
+[CYBER24] | SD.00045 | VEHICLE CYBERSECURITY CRYPTO INFRASTRUCTURE TO CYBER BRIDGE REST API FOR AUTHENTICATED DIAGNOSTICS ACCESS | -
+[CYBER25] | SD.00049 | DIAGNOSTIC SERVICES SECURE ACCESS RIGHTS | C
+[CYBER26] | SD.00078 | CERTIFICATE FORMATS | A
+[CYBER27] | SD.00089 | GLOBAL VEHICLE CYBER SECURITY: SECURE SOFTWARE BEST PRACTICES | A
+[CYBER28] | SD.00094 | GLOBAL VEHICLE CYBERSECURITY: APPROVED V-PKI USE CASESGLOBAL VEHICLE CYBERSECURITY: APPROVED V-PKI USE CASES | -
+[CYBER29] | SD.00094/01 | GLOBAL VEHICLE CYBERSECURITY: V-PKI AUTHENTICATED DIAGNOSTICS USE CASE TEMPLATE | -
+[CYBER30] | SD.00094/02 | GLOBAL VEHICLE CYBERSECURITY: V-PKI IDENTITY USE CASE TEMPLATE | -
+[CYBER31] | SD.00094/03 | GLOBAL VEHICLE CYBERSECURITY: V-PKI FIRMWARE SIGNING USE CASE TEMPLATE | -
+[CYBER32] | SD.00101 | SUPPLIERS CYBERSECURITY PROCESS GUIDELINE | A
+
+----------------------------------------------------------------------------------------
+Chunk 41:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 21)
+[TAG] | Reference | Name | Revision
+[CYBER33] | SD.00103 | ECU IDENTITY CSR FORMAT VALIDATION | -
+[CYBER34] | SD.00126 | GLOBAL VEHICLE CYBER SECURITY: CERTIFICATE VALIDATION REQUIREMENTS | A
+[CYBER35] | SD.00136 | IMPLEMENTATION GUIDELINE FOR MESSAGE AUTHENTICATION | -
+[CYBER36] | SD.00149 | FOTA MANIFEST FILES AND SIGNATURE | A
+[DIAG21] | CS.00010/03 | DESIGN REVIEW FOR ELECTRIC AND ELECTRONIC SYSTEMS - DIAGNOSTIC PROTOCOLS | C
+[DIAG22] | CS.00025 | DIAGNOSTIC COMMON PROCESS DESCRIPTION | C
+[DIAG25] | CS.00048 | Node Identifiers, Diagnosis Addresses and Ethernet MAC Inserts | B
+[DIAG27] | CS.00253 | DIAGNOSTIC REQUIREMENT STANDADRD – UDS | 
+[DIAG28] | CS.00254 | STLA COMPREHENSIVE STANDARD UNIFIED DIAGNOSTIC SERVICES (UDS) |  
+[DIAG29] | CS.00255 | STLA  ECU FLASH REPROGRAMMING REQUIREMENTS Part 1 INSTALLING SEQUENCES (FOTA COMPATIBLE) |  
+
+----------------------------------------------------------------------------------------
+Chunk 42:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 22)
+[TAG] | Reference | Name | Revision
+[DIAG30] | CS.00257 | STANDARDIZED DIAGNOSTIC DATA (SDD) - UDS |  
+[DIAG31] | CS.00258 | ODX-F FLASH FILE CONTAINER REQUIREMENTS | D
+[DIAG32] | CS.00176 | ECU HARDWARE REQUIREMENT FOR FOTA | A
+[DIAG33] | CS.00256 | STLA ECU FLASH REPROGRAMMING REQUIREMENTS Part 2 ECU INTERNAL MECHANISMS (FOTA COMPATIBLE) |  
+[DIAG34] | CS.00259 | MASTER/SLAVE AND GATEWAY ECU DIAGNOSTIC SPECIFICATION |  
+[DIAGTEST1] | CANdelaStudio | CANdela Studio (shall be updated at last version available at platform start, and maintenance contract shall be issued for all the period of development phase) | 0
+[DIAGTEST2] | CANdesc | CANdela Desc (OPTION BY Supplier) | 0
+[DIAGTEST3] | SD.00064 | ECU DIAGNOSTIC VERIFICATION PROCEDURE UDS BASED ON CS.00100 | A
+[EOL1] | CS.00148 | GENERAL SPECIFICATION FOR ADVANCED 'EOL' PROGRAMMING - PROXI | E
+[EOL2] | LP.7Z024 | Testing PROXI process"" for systems with ADVANCED EOL PROGRAMMING" | C
+
+----------------------------------------------------------------------------------------
+Chunk 43:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 23)
+[TAG] | Reference | Name | Revision
+[E2E] | CS.00193 | FUNCTIONAL SAFETY END-TO-END (E2E) PROTECTION | -
+[TS3] | 01991_22_01275 | CAN Communication layer | 1.0
+[16] | CS.00010/04 | NETWORK DESIGN REVIEW FOR ELECTRONIC SYSTEMS | C
+[21] | CS.00122 | XCP UNIVERSAL MEASUREMENT PROTOCOL | G
+[22] | CS.00150 | AUTOSAR NETWORK MANAGEMENT REQUIREMENTS | D
+[NETTEST1] | 7.Z0141 | Electronic systems - CAN nodes - Message mapping check test. | 5
+[NETTEST2] | LP.7Z070 | ELECTRONIC SYSTEMS MEDIUM / HIGH SPEED C.A.N. NODES - OFF-VEHICLE PHYSICAL LEVEL TEST | A
+[NETTEST4] | LP.7Z104 | ELECTRONIC SYSTEMS: ECU - NM LEVEL TESTS FOR CAN FD ECUs | -
+[15] | 02016_14_05843 | Technical Specification of Networks Generic Gateway | 6.0
+[CAN11] | 02016_16_01683 | Ethernet(DoIP) / CAN gateway for ECU diagnostic / reprogramming | 6.0
+
+----------------------------------------------------------------------------------------
+Chunk 44:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 24)
+[TAG] | Reference | Name | Revision
+[CAN12] | 02016_16_02041 | CAN / Ethernet(DoIP) gateway for ECU diagnostic / reprogramming | 3.0
+[NETTEST5]
+ | 02016_15_00803
+ | TEST EQUIPMENT’S ETHERNET AND DOIP REQUIREMENTS
+ | 8.0
+
+[PLN] | 00786_22_04198 | PLN_00786_22_04198_Project_planning_DRAFT | 1.0
+[FEA09] | 00998_22_00345
+ | Output_SSP - DOW - Door Opening Warning | 2.0
+[13] | 02016_16_03898
+ | TS of Network Interface DoIP  Physical Layer | 5.0
+[STA39] | 02016_16_01039 | Adaptation of SW-C End-to-End Communication Protection | 14.0
+
+[CCTS] | 00786_23_04474 | CCTS_00786_23_04474_SP1_SP2_LP4_Radars | 2.0
+
+[CSAR] | 02016_16_05952
+ | CSAR: Cyber-Security Assurance Requirements
+ | 17.0
+
+[DIAG38]
+[DIAG36] | 'CS.00261 
+ | DO IP REQUIEREMENT FOR STLA 
+ |   
+
+[NET-PHY1]
+ | 01991_21_02427
+ | W/H with Multiplexed Networks
+ | 4.0
+
+----------------------------------------------------------------------------------------
+Chunk 45:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 25)
+[TAG] | Reference | Name | Revision
+[SW3]
+ | CS.00087
+ | SOFTWARE READINESS REPORT
+ | A
+
+[SW4]
+ | CS.00089
+ | COMPONENT VERSION VERIFICATION REPORT (CVVR)
+ | E
+
+[SW5]
+ | CS.00151
+ | FCA Software Architecture using AUTOSAR
+ | -
+[SW6]
+ | CS.00152/03
+ | SOFTWARE OPERATIONAL SPECIFICATIONS - STANDARD SOFTWARE PROGRAMMING RULES FOR C LANGUAGE
+ | -
+[SW7] | CS.00152/05
+ | SOFTWARE OPERATIONAL SPECIFICATIONS C++ SOFTWARE CYBERSECURITY AND QUALITY STANDARD
+ | -
+[PDP]
+ | 20417_23_00991 | Radars_20417_23_00991_PdP_ADAS_Component
+ | 2.0
+[CYBER37] | SD.00083 | FCA Global Vehicle Cyber Security Host Networking | -
+
+[CYBER38] | SD.00200 | JTAG INFRASTRUCTURE OFFBOARD 
+SECURITY REQUIREMENTS | A
+
+[CYBER39] | SD.00141 | ECU IDENTITY SECURITY OFFBOARD 
+REQUIREMENTS | B
+
+[CYBER40] | SD.00154 | ECU IDENTITY HANDBOOK | A
+
+
+----------------------------------------------------------------------------------------
+Chunk 46:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 26)
+[TAG] | Reference | Name | Revision
+[CYBER41] | SD.00151 | ECU IDENTITY CERTIFICATE URLs | A
+
+[CYBER42] | SD.00125 | ECU IDENTITY RETRY STRATEGY | A
+
+[CYBER43] | CS.00183 | GLOBAL SERVICE DELIVERY PLATFORM CERTIFICATE RESTFUL API | B
+[CYBER44] | CS.00175 | FCA GLOBAL VEHICLE CYBERSECURITY STRATEGY - INTERNET SECURITY | A
+
+[CYBER45] | CS.00189 | GLOBAL VEHICLE CYBERSECURITY STRATEGY - APP SECURITY CLASSIFICATION | A
+
+[CYBER46] | CS.00178 | Application OverThe Air Updates: Cybersecurity Requirements | B
+
+[CYBER47] | CS.00179 | Global Service Delivery Platform (GSDP) DRM Signature | A
+
+[SW1] | CS.00077 | REQUIREMENTS ANALYSIS REPORT (RAR) | A
+
+[SW2] | 09004/01 | OPERATIVE SOFTWARE SPECIFICATIONS - STANDARD SOFTWARE REQUIREMENTS | A
+
+[CYBER48] | CS.00152/06 | SOFTWARE OPERATIONAL SPECIFICATIONS JAVA AND ANDROID SOFTWARE CYBERSECURITY AND QUALITY STANDARD | -
+
+
+----------------------------------------------------------------------------------------
+Chunk 47:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 27)
+[TAG] | Reference | Name | Revision
+[CYBER49] | SD.00078/01 | ECC CERTIFICATE FORMATS | -
+
+[CYBER50] | SD.00015/05 | FOTA DEPLOYMENT PACKAGE SIGNATURE | B
+
+[CYBER51] | SD.00296 | FCA GLOBAL FIRMWARE OVER-THE-AIR DESIGN | -
+
+
+
+[FEA13] | 00998_19_01752 | LPA Service Specification | 9.0
+[FEA14] | 00998_23_05254 | ACC Service specification | 2.0
+[FEA15] | 20417_24_00096 | LKA Service specification | Last version in DOCINFO
+
+
+[FEA17] | 00998_24_01658 | LPA Vehicle Functional Design – draft 24Q1 | 
+
+1.0
+
+
+
+[FEA18] | 20417_24_00324 | 
+ACC Vehicle Functional Design | Last version in DOCINFO
+[FEA19] |  20417_24_00334 | SLI Vehicle Functional Design – 24Q1 | Last version in DOCINFO
+[FEA20] | 20417_24_00335 | ETSR Vehicle Functional Design – 24Q1 | Last version in DOCINFO
+
+
+----------------------------------------------------------------------------------------
+Chunk 48:
+[Table]
+[Heading 2] APPLICABLE DOCUMENTS (Part 28)
+[TAG] | Reference | Name | Revision
+[DIAG37] | 'CS.00260' | DEH STLA: Communication requirements for diagnostic tool | 
+
+----------------------------------------------------------------------------------------
+Chunk 49:
+
+
+	
+
+
+----------------------------------------------------------------------------------------
+Chunk 50:
+[Heading 1] TERMINOLOGY
+
+----------------------------------------------------------------------------------------
+Chunk 51:
+[Heading 2] GLOSSARY
+
+----------------------------------------------------------------------------------------
+Chunk 52:
+[Heading 3] DEPENDABILITY VOCABULARY
+
+Safety: Capacity of the system to prevent the appearance, under the given conditions, of critical or catastrophic events.
+
+The Standard ISO 26262 declines for the vehicle, the standard CEI 61508 that refers to the safety of the electrical and electronic systems; an initial version has been published in 2008, the final text will be published in 2010.
+
+Availability: Capacity of the system to perform or to be able to perform a required function at a given moment.
+
+Reliability: Capacity of a device to perform a required function, in given conditions of use and maintenance, for a given duration (NF X 60-500).
+
+Unreliability: Probability of being defective before a given time, mileage or number of stresses. Unreliability according to a given duration t is the probability of failure in the interval[0, t]:
+
+
+Durability: Capacity of a good to perform a function until a limit state is reached (NF X 60-500)
+
+Performance of a Radars2026 (or part of a system): This is a matter of the behaviour performances of the Radars2026 or sub-system used by the customer. These performances result from the intrinsic resistance of the Radars2026s with their dispersion and the forces levels encountered in customer use.
+Note: The supplier brings his view feedback when he has it, but the performance in service is always set by PSA.
+
+Maintainability: In given conditions of use for which it was designed, the capacity of a system to be maintained or restored to a state where it can perform a required function, when the maintenance is performed in given conditions, using the prescribed procedures and resources.
+
+Failure: This is the behaviour that leads to a non-desired situation.
+The vocabulary of the standard ISO26262 distinguishes between:
+“random” failure: which has a physical character that can be altered by a reliability strategy (be it: Weibull, normal, exponential…) 
+a failure triggered by an external environment itself random is part of this category of breakdowns, if the environment conditions were planned at the moment of the design.
+“Systematic” failure: resulting from the non-conformity of the state of the art at the level of design, validation, production... (ex: specification, traceability of requirements, lack of knowledge on the maximum stress) 
+The development of software without respecting the V cycle is a systematic failure. 
+The systematic failures are not part of the perimeter discussed by the durability procedure.
+Failure mode: Physical phenomenon at the origin of the failure
+The functional failure modes refer to the (physical or information) output Radars2026 flows and are classified as follows:
+
+
+----------------------------------------------------------------------------------------
+Chunk 53:
+[Table]
+[Heading 3] DEPENDABILITY VOCABULARY
+Failure mode | Definition | Representation *
+Loss | The information is not transmitted
+
+ | 
+Not valid | Some information is transmitted, but it does not correspond to a possible valid state
+
+ | 
+
+Erroneous | Some information is transmitted; it corresponds to a valid state, but it does not have the expected value. | 
+Inopportune | Valid information is transmitted involuntarily.
+
+
+ | 
+Degradation | 
+An error outside tolerance is present on the information.
+ | 
+
+----------------------------------------------------------------------------------------
+Chunk 54:
+The continuous lines represent the expected state, and the dotted lines – the actual state
+
+Degradation is a term mainly used for an analogic signal
+Invalid is a term mainly used for a digital signal
+
+Failure modes: This is a matter of the degradation process that leads to failure after a certain time of use of the vehicle by the customer. 
+There are:
+the fatigue phenomena:
+the fatigue under variable load: is generally subject to a PSA specification of the level of “equivalent fatigue” as a resistance to a number of cycles set. The intrinsic resistance under this number of cycles follows a normal strategy.
+the fatigue under approximately constant load: is the number of rupture cycles which is specified; according to the level of knowledge of the behaviour in fatigue, or we can also use a otentia via the Wöhler curves, or we can model the resistance distribution by a log-normal strategy.
+The fatigue damage level is not measurable in the vehicle: the intrinsic resistance potential can only be evaluated only by tests carried out until rupture (the experience feedback allows us in some cases to avoid it).
+
+wear: the number of cycles with rupture is otenti by Weibull distribution. The wear level can generally be measured, which allows us to estimate the intrinsic resistance potential by extrapolation if we know the maximum wear level leading to the loss of service.
+
+failures modelled by an exponential strategy (random or systematic in conformity with the standard) characterized by an instantaneous failure rate or an average time (distance or stress) between failures. 
+
+
+Steps should be taken to adjust the phenomena of corrosion or degradation in ambient air (ozone for example). The impact of these phenomena is estimated by the SPR as a natural accelerator factor and is communicated to PSA when identified.
+
+We retain the main failure modes which correspond to the weak links. This means that the other failure modes are (subject to a normal implementation) manifestly impossible to encounter taking into account the dimensioning and the layout of the studied system.
+
+Dreaded event (DE): This is the event after a failure having a negative impact on the customer or his environment. There is the functional ER caused by the failure of a functional output flow of the “threat – damage ER” which is not caused by a failure of the Radars2026’s or the system’s functional.
+
+The dreaded events are classified according to their criticality level: The criticality level is an estimate of the effect of the dreaded event considered in terms of inconvenience for the user, of cost for repairing, or of individual risk. The dreaded events are quoted according to the following quotation system:
+
+
+----------------------------------------------------------------------------------------
+Chunk 55:
+[Table]
+[Heading 3] DEPENDABILITY VOCABULARY
+Level | Definition | Comments
+G1 | Dissatisfaction or degradation of vehicle functionality. | General performances of the vehicle preserved. The user can continue to use his vehicle. No immediate intervention required.
+G2 | Loss of vehicle functionality | Appearance of constraining symptoms. The user can continue to use his vehicle, but a fast intervention is required.
+G3 | The vehicle is unavailable for the user. | Impossibility to drive or impossibility to reach the destination because of the loss of a main function, or because of non-compliance with the regulations (risk of fine).
+Impossibility to park the vehicle as is (risk of inviolability).
+G4 | Risk of bodily harm for man. | Can potentially lead to a traffic accident or physical injuries.
+
+----------------------------------------------------------------------------------------
+Chunk 56:
+
+ASIL Level: This is the safety integrity level “ASIL” (Automotive Safety Integrity Level) for each safety function or system. This is a scale with 5 levels of growing criticality (QM, A, B, C, D) that refines the notion of ER G4. The QM level refers to the Quality Management and to the standard ISO-TS 16949. The level results from an analysis that includes:
+- The frequency of the risk situations (E1 to E4)
+- The driver’s ability to control the consequences of the ER (C0 to C3)
+- The severity of the consequences (S1 to S3)
+
+Acceleration factor: Its application increases the damage and accelerates the failure of the RADARS2026 or sub-system. There is a major interest in accelerating the durability tests.
+Note: Such a factor is used if the SPR commits himself on the value of the acceleration coefficient (recognized calculation, experimentation, etc.).
+
+Aggravated Short-Circuit (CCA): One is in the presence of CCA when the presence of flames or combustion is not confined to the inside of the equipment and/or when a voluntary intervention is necessary to stop it.
+There are the Parallel CCA and the Series CCA:
+Parallel CC: Insulation fault at constant voltage between + and – (potential difference). If the insulation resistance decreases, the leakage current increases the power increases and a hot spot (P= U²/R) is created
+Series CC: Rated current or overload conduction fault. If the electrical resistance increases the power increases and a hot spot (P= RI²) is created.
+
+
+1st barrier: All the technical solutions that prevent the appearance of a “hot spot” in the EE part (critical temperature rise in relation to its environment)
+
+2nd barrier: All the technical solutions that prevent the propagation of the hot spot outside the EE part.
+
+
+----------------------------------------------------------------------------------------
+Chunk 57:
+[Heading 3] OTHER GENERIC TERMS
+
+X, y, z axes: The description of the axes x, y and z used in this CS and in the functional plan complies with the standard B18 0050 [N0]
+
+Rms value of a variable electric current:
+The intensity rms value i(t) of a variable current with the duration T is calculated by:
+
+
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 58:
+[Heading 2] ACRONYMS
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 59:
+[Table]
+[Heading 2] ACRONYMS
+Abbreviation  | Meaning
+
+EEE | Electrical and Electronic Equipment 
+SSC
+ | Serious Short Circuit: SSC occurs when flames or combustion are not confined inside the EEE and/or an external operation is necessary to stop it cf. definition [01552_13_01824].
+Hot spot
+
+ | Thermal incident due to excessive local heating from electrical origin leading to ignition temperature of materials.
+The propagation of a hot spot could lead to a SSC.
+ETI | Electrical Thermal Incident 
+
+----------------------------------------------------------------------------------------
+Chunk 60:
+
+
+ADAS		Advanced Drivers Assistance System
+CVM		Multipurpose Video camera (Camera Video Multifonction)
+DTC		Diagnostic Trouble Code
+ECU		Electronic Control Unit
+V-AEB		Video Automatic Emergency Brake
+FCW		Forward Collision Warning
+TBD		To Be Defined
+CS		Component Specification
+TS		Technical Specification, = CS
+TTC		Time To Collision
+IEBA			Intelligent Emergency Braking Amplification
+AEB	Automatic Emergency Brake
+AEBS	Automatic Emergency Brake System
++APC	+ After ignition feed (+ Après Contact)
+CCA	Aggravated Short-Circuit (Court Circuit Aggravé) 
+DAA	Driver Attention Assist
+DTC	Diagnostic Trouble Code
+ER	Dreaded Event (Evénement Redouté)
+HBA	High Beam Assist
+LDW	Lane Departure Warning
+LKA	Lane Keeping Assist
+PCB	Printed Circuit Board
+NVRAM	Non Volatile RAM
+RAM	Random Access Memory
+REPAS	Réveiller et Endormir les UCE et les réseaux et Piloter les Alimentation du Système
+SLI	Speed Limit Information
+TBC	To Be Confirmed
+ZA	Authentication Area (Zone d’Authentification)
+ZI	Identification area (Zone d’Identification)
+RAMS	Reliability, Availability, Maintainability, Safety
+FBS	Functional Breakdown Structure
+FSR	Functional Safety Requirement
+PCP	Plan Condition Piece
+STLA	Stellantis
+PSA	Also means STLA
+
+
+----------------------------------------------------------------------------------------
+Chunk 61:
+[Heading 2] WRITING CONVENTION
+
+
+1 Requirements:
+The requirements are submitted in the form of a table that contains 3 columns:
+
+
+----------------------------------------------------------------------------------------
+Chunk 62:
+[Table]
+[Heading 2] WRITING CONVENTION
+Requirement no (v) | Description of the requirement | Input Requirement(v)
+ | Description of the requirement
+
+[Attribute1 attribute2]
+
+[ otential remark, non-specifying, in italic] | 
+
+----------------------------------------------------------------------------------------
+Chunk 63:
+
+Numbering of requirements:    APP-SYS-DOC-CHAP.nnnn (V) :
+
+----------------------------------------------------------------------------------------
+Chunk 64:
+[Table]
+[Heading 2] WRITING CONVENTION
+APP | : | Generic application (GEN) or Project (ex. B9) | : max 5 characters
+SYS | : | System studied (VHL, BSI, CdPL, etc.) | : max 10 characters
+DOC | : | Document type (TS, DC, etc.) | : : max 5 characters
+CHAP | : | Document chapter or function name (vehicle or design) (ex. ASOP, ECLI,…) | : max 20 characters
+nnnn | : | Number of the requirement | : 4 digits
+V | : | Requirement version | :  0 then 1, 2…
+
+----------------------------------------------------------------------------------------
+Chunk 65:
+
+Requirements attributes (for information):
+Some requirements need to be highlighted in the CS by a specific attribute to facilitate the specific processing associated with them. This specific processing concerns a PSA internal traceability requirement, or additional requirements concerning the supplier.
+
+PSA internal traceability requirement (for information):
+
+
+----------------------------------------------------------------------------------------
+Chunk 66:
+[Table]
+[Heading 2] WRITING CONVENTION
+	Type of attribute | Nature of requirement | Particular treatment
+att_bool@ R  | Regulation requirement | The system is classified “Regulatory “ in compliance with standards A13 3310 [G8]
+att_SdF@ « xn » | Failsafe Operation Requirement | This requirement is a response to a DE (Dreaded Event) of criticality 3 or 4 described in § 5.4.4.3 and § 5.4.4.4. “x” designates the criticality level (1 to 4) “n” the ASIL level (A, B, … ).
+Att_bool@ I | Necessary | This requirement is mandatory. Monitoring the compliance with the mandatory requirements is subject to specific attention from the projects.
+Att_métier@ « X » | Mechanical or Electrical Requirement | In a document jointly managed by and Electricity – Electronics technician and a Mechanical technician, the M requirements are the exclusive mechanical technician’s responsibility, and the E requirements are the exclusive electrical technician’s responsibility, and the other are the responsibility of the document pilot technician.
+Att_var@ « var1 » …  « var I » | Any type | Requirement applicable to variants “var 1” ... “var I”.
+
+----------------------------------------------------------------------------------------
+Chunk 67:
+
+
+----------------------------------------------------------------------------------------
+Chunk 68:
+[Table]
+[Heading 2] WRITING CONVENTION
+Type of attribute | Nature of requirement | Particular treatment
+att_bool@ CTF | Requirements for which the FTC / CSE procedure guarantees the compliance. | These requirements are resumed by the supplier so as to guarantee them throughout the production phase by measuring the CSE written in the monitoring plan. See doc. [G9]
+
+----------------------------------------------------------------------------------------
+Chunk 69:
+
+
+----------------------------------------------------------------------------------------
+Chunk 70:
+[Heading 1] REQUIREMENTS
+
+----------------------------------------------------------------------------------------
+Chunk 71:
+[Heading 2] FUNCTIONAL REQUIREMENTS
+
+
+----------------------------------------------------------------------------------------
+Chunk 72:
+[Table]
+[Heading 2] FUNCTIONAL REQUIREMENTS (Part 1)
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-FUNC-000(2) | The part must comply to [FEA00] | 
+GEN-RADARS2026-CSP-FUNC-001(0) | The part must comply to [FEA01] | 
+GEN-RADARS2026-CSP-FUNC-004(1) | The part must comply to [FEA04] | 
+GEN-RADARS2026-CSP-FUNC-005(2) | The part must comply to [FEA05] | 
+GEN-RADARS2026-CSP-FUNC-006(3) | The part must comply to [FEA06] | 
+GEN-RADARS2026-CSP-FUNC-007(1) | The part must comply to [FEA07] | 
+GEN-RADARS2026-CSP-FUNC-008(2) | The part must comply to [FEA08] | 
+
+
+
+GEN-RADARS2026-CSP-FUNC-009(0) | The part must comply to [FEA09] | 
+GEN-RADARS2026-CSP-FUNC-010(0) | The part must comply to [FEA13] | 
+GEN-RADARS2026-CSP-FUNC-011(0) | The part must comply to [FEA14] | 
+
+----------------------------------------------------------------------------------------
+Chunk 73:
+[Table]
+[Heading 2] FUNCTIONAL REQUIREMENTS (Part 2)
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-FUNC-012(0) | The part must comply to [FEA15] | 
+GEN-RADARS2026-CSP-FUNC-013(0) | The part must comply to [FEA17] | 
+GEN-RADARS2026-CSP-FUNC-014(0) | The part must comply to [FEA18] | 
+GEN-RADARS2026-CSP-FUNC-015(0) | The part must comply to [FEA19] | 
+GEN-RADARS2026-CSP-FUNC-016(0) | The part must comply to [FEA20] | 
+GEN-FRONTRADAR2026-CSP-FUNC-014(0) | The CAN messaging of the component is [CAN11a] for the network xx
+Low layers compliant to pdf/odt format.
+Dbc provided to supplier to help, supplier fully responsible of compliance to pdf/odt (Autosar,..)
+Specific tasks to perform if the comstack supplier is not validated by Stellantis | 
+GEN-FRONTRADAR2026-CSP-FUNC-015(0) | The CAN messaging of the component is [TBD] for the network xx
+Low layers compliant to pdf/odt format.
+Dbc provided to supplier to help, supplier fully responsible of compliance to pdf/odt (Autosar,..)
+Specific tasks to perform if the comstack supplier is not validated by Stellantis | 
+GEN-CORNERRADARS2026-CSP-FUNC-017(0) | The CAN messaging of the component is [CAN11b] for the network xx
+Low layers compliant to pdf/odt format.
+Dbc provided to supplier to help, supplier fully responsible of compliance to pdf/odt (Autosar,..)
+Specific tasks to perform if the comstack supplier is not validated by Stellantis | 
+GEN-RADARS2026-CSP-FUNC-018(1) | The part must comply to [STA21] | 
+GEN-FRONTRADAR2026-CSP-FUNC-019(3) | The CAN networks must comply to  [canTS1],[canTS2] and [CANFR09] | 
+
+----------------------------------------------------------------------------------------
+Chunk 74:
+[Table]
+[Heading 2] FUNCTIONAL REQUIREMENTS (Part 3)
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-CORNERRADARS2026-CSP-FUNC-020(3) | The CAN networks must comply to  [canTS1] ,[canTS2] and [CANCR09] | 
+GEN-FRONTRADAR2026-CSP-FUNC-022(1) | The synchro needs must comply to [synchroTS1], [synchroTS2], [synchroFRMAT] and [DIAG14] | 
+GEN-CORNERRADARS2026-CSP-FUNC-023(1) | The synchro needs must comply to [synchroTS1], [synchroTS2], [synchroCRMAT] and [DIAG14] | 
+GEN-RADARS2026-CSP-FUNC-024(0) | The component must embed the feature DEH “Defects event history”, the detailed specification will be sent later | 
+GEN-RADARS2026-CSP-FUNC-025(1) | The component must comply to NET TEST requirements defined in [NETTEST1] ,[NETTEST2],  [NETTEST4],  and [NETTEST5]   | N/A
+GEN-RADARS2026-CSP-FUNC-026(0) | The Ethernet (DoIP)/CAN gateway shall comply to [CAN11] | N/A
+GEN-RADARS2026-CSP-FUNC-027(0) | The CAN/Ethernet gateway shall comply to [CAN12] | N/A
+GEN-RADARS2026-CSP-FUNC-028(0) | The component must comply to NET TEST requirements defined in [NET-PHY1]
+ | 
+ |  | 
+
+----------------------------------------------------------------------------------------
+Chunk 75:
+
+
+----------------------------------------------------------------------------------------
+Chunk 76:
+[Heading 3] Degraded mode
+
+
+----------------------------------------------------------------------------------------
+Chunk 77:
+[Table]
+[Heading 3] Degraded mode
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_035(0)
+ | The part must comply to [CAN13] | 
+
+----------------------------------------------------------------------------------------
+Chunk 78:
+è
+
+----------------------------------------------------------------------------------------
+Chunk 79:
+[Heading 2] PERFORMANCE REQUIREMENTS
+
+
+----------------------------------------------------------------------------------------
+Chunk 80:
+[Heading 2] COMPONENT ARCHITECTURE
+
+----------------------------------------------------------------------------------------
+Chunk 81:
+[Heading 3] General design constraints
+This chapter presents the general design constraint (Make or Buy, re-use, physical constraint) or technical solution imposed. 
+
+
+----------------------------------------------------------------------------------------
+Chunk 82:
+[Table]
+[Heading 3] General design constraints
+N° Exigence(v)
+Requirement no. (v) | Libellé de l’exigence/Description of the requirement | Exigence amont(v)/Input requirement (v)
+GEN-VHL-CS_RADARS2026_029(0) | The Radar ECU shall be ASIL B compliant. | N/A
+
+----------------------------------------------------------------------------------------
+Chunk 83:
+
+
+----------------------------------------------------------------------------------------
+Chunk 84:
+[Heading 3] Configuration and diversity
+
+Definition of the element of the component configuration and the component configuration values.
+
+This chapter also defines:
+Setup strategy
+Calibration strategy
+Diversity
+
+
+----------------------------------------------------------------------------------------
+Chunk 85:
+[Table]
+[Heading 3] Configuration and diversity
+N° Exigence(v)
+Requirement no. (v) | Libellé de l’exigence/Description of the requirement | Exigence amont(v)/Input requirement (v)
+GEN-VHL-CS_FRONTRADAR2026_022(0) | All Front Radar HW variants shall have the same mechanical (no diversity and no bracket interface diversity). | NA
+GEN-VHL-CS_FRONTRADAR2026_023(0) | All Front Radar HW variants shall have electrical interfaces compatibility (no harness diversity and pin-to-pin compatibility). | NA
+GEN-VHL-CS_FRONTRADAR2026_024(0) | The Front Radar settings shall be adapted for all car variants only by calibration. | NA
+
+----------------------------------------------------------------------------------------
+Chunk 86:
+
+
+----------------------------------------------------------------------------------------
+Chunk 87:
+[Heading 2] EXTERNAL INTERFACES REQUIREMENTS
+
+
+----------------------------------------------------------------------------------------
+Chunk 88:
+[Heading 3] MECHANICAL INTERFACES
+
+
+----------------------------------------------------------------------------------------
+Chunk 89:
+[Table]
+[Heading 3] MECHANICAL INTERFACES
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-MECA-001(2)
+ | The functional drawing [STA2] describes the overall dimensions constraints (volume, dimension...) and the physical interfaces constraints (air cooling reserve, fastening...)
+ | 
+GEN-RADARS2026-CSP-MECA-002(0) | The fastening of the component (or system hardware item) is compatible with the tightening torques and tolerance intervals defined in standard B13 3116 [N5] | 
+GEN-RADARS2026-CSP-MECA-003(2) | The installation constraints of the component are described in [STA2] functional drawing. | 
+GEN-RADARS2026-CSP-MECA-004(0) | The fixing elements of the part should take the constraints of assembly and use of the body once set in the vehicle. The traction on the harness attached to the body part of these constraints. The organ should remain consistent after applying these contraines.
+The maximum force of 200N. | [M14] GEN-217120-ST-M2.1(0)
+GEN-RADARS2026-CSP-MECA-005(0) | The front and corner radars must be designed to be fixed with 1 screw and 2 flanges. | 
+
+----------------------------------------------------------------------------------------
+Chunk 90:
+
+
+----------------------------------------------------------------------------------------
+Chunk 91:
+[Heading 3] ELECTRICAL INTERFACE AND POWER MANAGEMENT
+
+This section defines the power supply requirements for all electric service life situations of the vehicle (nominal operation, degraded operation, short-circuit failure…). The STLA power management requirements are describe in the document [TS_IAECEE] The Radars are powered by +BAT. The applicable requirements are mentioned below.
+
+
+----------------------------------------------------------------------------------------
+Chunk 92:
+[Heading 4] Voltage range
+
+
+----------------------------------------------------------------------------------------
+Chunk 93:
+[Table]
+[Heading 4] Voltage range
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_001(0)
+ | Radars2026 shall guarantee its performances with minimum voltage less than or equal to 11,5V | GEN-VHL-CS-IAECEE.0076(2)
+GEN-VHL-CS_RADARS2026_002(0) | Radars2026 shall guarantee its performances with maximum voltage higher than or equal to 15,2V | GEN-VHL-CS-IAECEE.0077(1)
+GEN-VHL-CS_FRONTRADAR2026_003(0)
+ | During a short-circuit on primary architecture for the healthy branch, the Front RADAR shall be compatible with the voltage profile below:
+
+
+
+
+
+
+
+
+
+Unom1 & Unom2 = [Unom_min ; Unom_max] with I_pire_cas_lv
+Umin_sc is the minimum voltage during short-circuit with maximum Front RADAR consumption I_sc
+dT is the duration of short-circuit
+Umin = 8,8 V
+I_sc = 0,5 A
+dT between 100 ms & 500 ms
+Unom_min is 11,5V (defined in GEN-VHL-CS-IAECEE.0076(2))
+Unom_max is 15,2V (defined in GEN-VHL-CS-IAECEE.0077(1))
+ | GEN-VHL-CS-IAECEE.0099(0)
+GEN-VHL-CS_FRONTRADAR2026_004(0)
+ | During a short-circuit on primary architecture for the failed branch, the Front RADAR shall be compatible with the voltage profile below:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Unom1 = [Unom_min ; Unom_max] with I_pire_cas_lv
+Umin_sc is the minimum voltage during short-circuit with maximum EE component consumption I_sc
+dT is the duration of short-circuit
+Umin = 8,8 V
+I_sc = 0,5 A
+dT between 100 ms & 500 ms
+Unom_min is 11,5V (defined in GEN-VHL-CS-IAECEE.0076(2))
+Unom_max is 15,2V (defined in GEN-VHL-CS-IAECEE.0077(1))
+Ufail = 7 V with maximum EE consumption I_sc. | GEN-VHL-CS-IAECEE.0100(0)
+
+----------------------------------------------------------------------------------------
+Chunk 94:
+
+
+----------------------------------------------------------------------------------------
+Chunk 95:
+[Heading 4] Voltage ripple
+
+
+----------------------------------------------------------------------------------------
+Chunk 96:
+[Table]
+[Heading 4] Voltage ripple
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_005(0)
+ | The Radars2026 shall be comply with the voltage ripple level below (class 1 EE units):
+
+ | GEN-VHL-CS-IAECEE.0098(0)
+
+----------------------------------------------------------------------------------------
+Chunk 97:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 98:
+[Heading 4] Consumption in standby state
+
+
+----------------------------------------------------------------------------------------
+Chunk 99:
+[Table]
+[Heading 4] Consumption in standby state
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_FRONTRADAR2026_006(0) | In the standby operating situation of 12V FrontRadar2026 :
+Average consumption (for 2 hours from the sleep order) of an EE component shall be 125 µA at the maximum for a power supply voltage of 13V and the external temperature <+37°C.
+att_bool@ CTFC | GEN-VHL-CS-IAECEE.0002(4)
+
+----------------------------------------------------------------------------------------
+Chunk 100:
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 101:
+[Heading 4] Consumption in wakeup mode
+
+Operating state FUNCTIONAL_AWAKENED_DEVICE definition:
+
+A functional awakened device is an EE component powered on and ready to operate, but not providing any "client" service (example: Radio OFF, EMF off, Convertible roof idle, Window lift idle, PLC idle, Electrical seats idle, Interior lighting OFF, Windscreen wiper idle, etc.).
+
+
+----------------------------------------------------------------------------------------
+Chunk 102:
+[Table]
+[Heading 4] Consumption in wakeup mode
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_007(0)
+ | Total average consumption of a 12V EE component shall be 100 mA at maximum (AC + DC component) during the operating state :
+FUNCTIONAL_AWAKENED_DEVICE
+ | GEN-VHL-CS-IAECEE.0012(2)
+
+----------------------------------------------------------------------------------------
+Chunk 103:
+This current is also know with the following terms :  I awake and inactive (or I réveillé inactif in French) in Ophelie EDS
+
+
+----------------------------------------------------------------------------------------
+Chunk 104:
+[Heading 4] EE components consumption during the operating phases
+
+----------------------------------------------------------------------------------------
+Chunk 105:
+[Table]
+[Heading 4] EE components consumption during the operating phases
+N° Exigence(v)
+Requirement no. (v) | Libellé de l’exigence/Description of the requirement | Exigence amont(v)/Input requirement (v)
+GEN-VHL-CS_FRONTRADAR2026_020(0)
+ | The FRONT RADAR  shall have in factory a 10 minutes period after ignition ON, engine not turnover with 100mA at most of fluctuations of current consumption around its average value in factory mode VSM, without voluntary action of an operator or a diagnostic request | GEN_RADAR_46-03
+
+----------------------------------------------------------------------------------------
+Chunk 106:
+
+
+----------------------------------------------------------------------------------------
+Chunk 107:
+[Heading 4] Current profiles of the EE components at powering on (IMST)
+
+
+
+
+Note: the parameters I_mst (Current peak when EE component is powered on by connecting the battery or by closing the upstream switches) and I_max (current when the EE component is activated) are defined below.
+
+
+----------------------------------------------------------------------------------------
+Chunk 108:
+[Table]
+[Heading 4] Current profiles of the EE components at powering on (IMST)
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_008(0)
+ | The current values I_mst and I_max for a 12V EE component which its  consumption is lower than 10A, comply with the following equation, corresponding to an area of 0.15 A.s for a tension of 13 V on its terminals & on all the range of temperature and Imax < 150A:
+
+Note: 2 examples are mentioned above (150 A for 1 ms, or 15 A for 10 ms) | GEN-VHL-CS-IAECEE.0085(2)
+
+----------------------------------------------------------------------------------------
+Chunk 109:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 110:
+[Heading 4] EE components current profiles Inom and I Pire-cas (Worst case)
+
+
+
+
+
+
+
+
+
+
+Note: the parameters I_nom and I_pire-cas (nominal and worst case currents of the CVM in operation) are defined in 	the requirements below.
+
+
+----------------------------------------------------------------------------------------
+Chunk 111:
+[Table]
+[Heading 4] EE components current profiles Inom and I Pire-cas (Worst case)
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_009(0)
+ | The component consumption shall be less than or equal to I_pire_cas defined above.
+I_pire_cas = 0,5A. (0,5A for each radar) | GEN-VHL-CS-IAECEE.0018(1)
+
+----------------------------------------------------------------------------------------
+Chunk 112:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 113:
+[Heading 4] EE components current profiles on Real cycle or on customer use
+
+
+----------------------------------------------------------------------------------------
+Chunk 114:
+[Table]
+[Heading 4] EE components current profiles on Real cycle or on customer use
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_FRONTRADAR2026_010(0)
+ | On real cycle or on customer use (between 5°C & 45°C & at 13,9V) EE component consumption shall be less than or equal to E_USE (W.h)
+(The average consumption shall be less than E_USE W for 1 hour of real cycle or customer use)
+E_USE = 3,11 W.h
+ | GEN-VHL-CS-IAECEE.00113(1)
+GEN-VHL-CS_CORNERRADARS2026_011(0)
+ | On real cycle or on customer use (between 5°C & 45°C & at 13,9V) EE component consumption shall be less than or equal to E_USE (W.h)
+(The average consumption shall be less than E_USE W for 1 hour of real cycle or customer use)
+E_USE= 2 W.h for each corner radar
+ | GEN-VHL-CS-IAECEE.00113(1)
+
+----------------------------------------------------------------------------------------
+Chunk 115:
+[Heading 4] Power interfaces of the EE components power supplies
+
+The supplier has to choose one of the two following requirements depending on his power input.
+
+----------------------------------------------------------------------------------------
+Chunk 116:
+[Table]
+[Heading 4] Power interfaces of the EE components power supplies
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_012(0) | In order to define the maximum allowed make current, the equivalent input capacitances and resistances of the RADARS2026 shall comply with: Ce < 500 µF and Re > 150 m
+
+Nota: Re is the internal resistance equivalent to the capacitor Ce | GEN-VHL-CS-IAECEE.0025(0)
+GEN-VHL-CS_FRONTRADAR2026_021(0)
+ | In order to define the maximum allowed make current, the equivalent input capacitances and resistances of the EE component must comply with Ce < 500 µF and Re > 150 m.
+The equivalent capacitance, except filtering capacitances less than or equal to 100 nF, shall not inject a current back to the electrical power supply network.
+
+
+Note: Re is the internal resistance equivalent to the capacitor Ce | GEN-VHL-ST-IAECEE.0026(0)
+
+----------------------------------------------------------------------------------------
+Chunk 117:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 118:
+[Heading 4] Electrical Powering on
+
+----------------------------------------------------------------------------------------
+Chunk 119:
+[Heading 5] Relay bounces
+
+
+When the relay is switched (transition of the relay from open state to closed state), the profile is as follows (maximum 5 bounces as specified below)
+
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 120:
+[Table]
+[Heading 5] Relay bounces
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_CORNERRADARS2026_013(0) | The EE components switched by a relay shall resist to the typical switching bounces:
+Number: max. 5
+Duration of a bounce: max. 200 µs
+Total duration of the bounces: max. 1 ms | GEN-VHL-CS-IAECEE.0033(1)
+
+----------------------------------------------------------------------------------------
+Chunk 121:
+[Heading 5] EE components power supplied in +Perm (+BAT_CSP)
+
+
+----------------------------------------------------------------------------------------
+Chunk 122:
+[Table]
+[Heading 5] EE components power supplied in +Perm (+BAT_CSP)
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_FRONTRADAR2026_014(0)
+ | The FRONT RADAR with +PERM power supply,  shall comply with 100 switching cycles minimum (case of battery disconnection). | GEN-VHL-CS-IAECEE.0031(1)
+
+----------------------------------------------------------------------------------------
+Chunk 123:
+
+
+----------------------------------------------------------------------------------------
+Chunk 124:
+[Heading 5] EE components with switching power supply
+
+
+----------------------------------------------------------------------------------------
+Chunk 125:
+[Table]
+[Heading 5] EE components with switching power supply
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_CORNERRADARS2026_015(0) | EE components with a switching power supply shall comply with:
+120000 switching cycles minimum
+
+Nota: one switching cycle is defined in §5.2.1.5.1 for relay or §5.2.1.5.2 for MOS | GEN-VHL-CS-IAECEE.0032(3)
+
+----------------------------------------------------------------------------------------
+Chunk 126:
+[Heading 4] EE components behavior in the startup phase
+
+
+----------------------------------------------------------------------------------------
+Chunk 127:
+[Table]
+[Heading 4] EE components behavior in the startup phase
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_016(0)
+ | EE component shall resist to 83500 starts minimum with the voltage profile EQ/IC05, pulse 4 bis – pulse number II of [ETS01].
+
+Nota: it’s not mandatory to make a reliability test to validate this requirement. A theoretical demonstration may be sufficient. | GEN-VHL-CS-IAECEE.0046(3)
+
+----------------------------------------------------------------------------------------
+Chunk 128:
+
+
+----------------------------------------------------------------------------------------
+Chunk 129:
+[Heading 4] EE components resistance in the restart phase (STT vehicle) :
+
+Restart pulse : 
+
+----------------------------------------------------------------------------------------
+Chunk 130:
+[Table]
+[Heading 4] EE components resistance in the restart phase (STT vehicle) :
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_017(0)
+ | Restart without DMT
+The EE component, referenced to the body car ground, shall resist to 400 000 restarts minimum with the voltage profile below:
+
+
+Nota: it’s not mandatory to make a reliability test to validate this requirement. A theoretical demonstration may be sufficient. | GEN-VHL-CS-IAECEE.0047(4)
+
+----------------------------------------------------------------------------------------
+Chunk 131:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 132:
+[Heading 4] Electrical Powering off
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 133:
+[Table]
+[Heading 4] Electrical Powering off
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_018(0)
+ | The EE components shall resist to powering off 1min after the standby request on the network.
+The EE component shall be ready/capable to shut down in less than 1 minute after the standby request on the network (=shut down when driver put ignition off) | GEN-VHL-CS-IAECEE.0049(2)
+
+----------------------------------------------------------------------------------------
+Chunk 134:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 135:
+[Table]
+[Heading 4] Electrical Powering off
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_019(0)
+ | The component resists to powering off 10 seconds after the standby request on the network.
+The HW/SW implementation of ADAS events recordings shall be consistent with this requirement (lessons learned about memorization duration)
+ | 
+
+----------------------------------------------------------------------------------------
+Chunk 136:
+
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 137:
+[Heading 4] EE components reliability in current overload mode during standby phase
+
+
+----------------------------------------------------------------------------------------
+Chunk 138:
+[Table]
+[Heading 4] EE components reliability in current overload mode during standby phase
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_FRONTRADAR2026_019(0)
+ | The device failure total frequency that might trigger a consumption of more than 5 mAh above the "essential monitoring characteristic (CSE) of sleep/leaked consumption component" shall not exceed 100 ppm in 7 years.
+Note: this requirement includes the internal causes of not entering the sleep mode and of device untimely wakeup. | GEN-VHL-CS-IAECEE.0055(3)
+GEN-VHL-CS_RADARS2026_020(0)
+ | The device failures total frequency that might keep the networks on shall be less than 100 ppm in 7 years. | GEN-VHL-CS-IAECEE.0071(1)
+GEN-VHL-CS_RADARS2026_021(0)
+ | The device failures total frequency that might trigger an untimely wakeup of the networks shall be less than 100 ppm in 7 years. | GEN-VHL-CS-IAECEE.0073(1)
+
+----------------------------------------------------------------------------------------
+Chunk 139:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 140:
+[Heading 2] COMPONENT OUTPUT REQUIREMENTS
+This chapter presents the requirements for the entire component.
+
+The requirements shall respect the standard and rules of engineering requirement.
+
+The requirements shall belong to the following categories:
+Functional requirement
+Constructional requirement
+
+The functional requirements shall be expressed at the boundaries (inputs or outputs) of each technical function, or component, or part engineering activities. 
+
+The requirements shall be approved by the entire "design group". They could formalize arbitrations when it is necessary between two allocated requirements.
+
+Requirements that specify a component shall deal with:
+Functional behavior
+Constraints
+Performance
+Mission profile
+Durability
+RAMS
+
+
+----------------------------------------------------------------------------------------
+Chunk 141:
+[Table]
+[Heading 2] COMPONENT OUTPUT REQUIREMENTS
+N° Exigence(v)
+Requirement no. (v) | Libellé de l’exigence/Description of the requirement | Exigence amont(v)/Input requirement (v)
+GEN-VHL-CS_RADARS2026_0032(0) | The supplier shall provide the list of input interfaces needed for the development / tuning of all functions.  | NA
+GEN-VHL-CS_RADARS2026_0033(0) | The supplier shall propose potential additional parameters for the development / tuning of all functions. | NA
+GEN-VHL-CS_RADARS2026_0034(0) | The supplier shall propose the lower boot time than possible. PSA request the availability of all functions in 5s.
+The optimization of the boot time can be done by using multi-threading technology for superior handling of data control and management during the boot of the system.  | NA
+
+----------------------------------------------------------------------------------------
+Chunk 142:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 143:
+[Heading 2] PERFORMANCE REQUIREMENTS
+
+
+----------------------------------------------------------------------------------------
+Chunk 144:
+[Table]
+[Heading 2] PERFORMANCE REQUIREMENTS
+N° Exigence(v)
+Requirement no. (v) | Libellé de l’exigence/Description of the requirement | Exigence amont(v)/Input requirement (v)
+GEN-VHL-CS_RADARS2026_030(1) | The part must be able to be used anywhere in the world except north America.
+If not, the supplier must identify and provide the list of countries in which:
+the use of the part is no problem
+the use of part is redibitory
+the use of part is possible subject to specific actions (to be defined by the supplier) | NA
+
+----------------------------------------------------------------------------------------
+Chunk 145:
+
+
+----------------------------------------------------------------------------------------
+Chunk 146:
+[Heading 2] OPERATIONAL REQUIREMENTS
+
+
+----------------------------------------------------------------------------------------
+Chunk 147:
+[Heading 3] OPERATIONAL REQUIREMENTS – ETI REQUIREMENTS FOR EEE
+The supplier provides proofs for requirements achivements below (requirements GEN -HW -ST- SSC.00x ) with the document  [CSEE_CLCO09_1137] , by using the own method and / or can help the methodology [01552_13_01824 ] and procedures testing proposed by PSA [01552_13_10889].
+The proofs are checked by PSA for each definition freeze milestone of the component and/or the validation steps.
+
+
+----------------------------------------------------------------------------------------
+Chunk 148:
+[Table]
+[Heading 3] OPERATIONAL REQUIREMENTS – ETI REQUIREMENTS FOR EEE
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-HW-ST-SSC.001(2) | ETI.1:The hot spot shall not spread beyond the EEE connector interface and the harness connector.
+
+ | GEN-HW-ST-SSC.001(1)
+GEN-HW-ST-SSC.002(2) | ETI.2: The hot spot shall remain confined inside the EEE housing.
+ | GEN-HW-ST-SSC.002(1)
+GEN-HW-ST-SSC.003(2) | ETI.3: The hot spot shall not perforate the EEE (housing and the bottom of pins header).
+
+ | GEN-HW-ST-SSC.003(1)
+GEN-HW-ST-SSC.004(2) | ETI.4: In case of failure, the EEE shall not lead to an overcurrent that can cause a destruction of wiring harness insulation..
+
+	 | GEN-HW-ST-SSC.004(1)
+GEN-HW-ST-SSC.006(2) | ETI.5:In case of mechanical deformation, the EEE shall not lead to a ETI.
+
+ | GEN-HW-ST-SSC.006(1)
+GEN-HW-ST-SSC.007(0) | The supplier provides evidences for requirements GEN-HW-ST-SSC.001, 002, 003, 004 & 006 with the document  [STA15] , by using  method that own and / or can help the methodology [STA14] and procedures testing proposed by PSA [STA12] | NA
+
+----------------------------------------------------------------------------------------
+Chunk 149:
+
+Supplier shall provide sufficient detail and evidences for the HW/SW ETI designs to demonstrate that the STELLANTIS ETI requirements are achieved.
+STELLANTIS to approve. 
+The HW/SW Design documents reviews may include, but are not limited to:
+Description of the methodology and test procedure applied to manage the ETI Risk proposed by STELLANTIS [01552_13_10889] or based on internal supplier standards 
+ETI tests plan and report based of test procedure proposed by STELLANTIS [20978_23_00040] or based on internal supplier standards.
+
+The supplier has to deliver evidences, through a report (example of report: [20978_23_00040] ETI Risk Assessment for EEE – ETI Component – Synthesis file), that ETI integration and testing has been performed.
+
+The supplier shall provide a release letter concerning ETI topics.
+
+
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 150:
+[Heading 3] Mission profile
+
+----------------------------------------------------------------------------------------
+Chunk 151:
+[Heading 4] Data for calculation of failure occurrences
+Mission profiles 
+
+
+----------------------------------------------------------------------------------------
+Chunk 152:
+[Table]
+[Heading 4] Data for calculation of failure occurrences
+The mission profile describes the use of functionality or the unit by the customers expressed over a base period.
+It can be represented by a log-normal distribution (or Galton distribution) with 2 parameters denoted μ (the mean) and σ (the standard deviation).
+The parameters given below are determined for a lifespan of 15 years or 240000 km.
+Starting from these values, we can :
+determine the reliability prediction;
+dimension the validation tests (considering this mission profile, the ageing model of the part, reliability target and number of samples). | 
+
+----------------------------------------------------------------------------------------
+Chunk 153:
+
+
+----------------------------------------------------------------------------------------
+Chunk 154:
+[Table]
+[Heading 4] Data for calculation of failure occurrences
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_022(0)
+ | The components should have its mission profiles deduced from general user profiles according to their function definitions. 
+Only the profiles related to damage factors are relevant for reliability tests sizing and damage factors are the results of FMEA analysis.
+The critical components profiles should be deduced once the damage factor, the components life situations and functions are clear.
+
+This work (critical components profile build up) should be thoroughly finished before PIV stage.
+General function mission profiles are defined in the following tables PFM 1, PFM 2 and PFM3.
+Some are represented by a log-normal distribution (or Galton distribution or normal distribution) with 2 parameters denoted μ (the mean) and σ (the standard deviation).
+ | SMALL-CDC-DURA-1(0)
+
+----------------------------------------------------------------------------------------
+Chunk 155:
+
+Mission Profiles for Electronic reliability calculation 
+
+The following mission profile is intended to be used for the estimated measurement of the dependability parameters:
+
+Electric electronic activation profiles
+
+
+----------------------------------------------------------------------------------------
+Chunk 156:
+[Table]
+[Heading 4] Data for calculation of failure occurrences
+General mission profile for information | General mission profile for information | General mission profile for information | General mission profile for information | General mission profile for information | General mission profile for information | General mission profile for information | General mission profile for information | General mission profile for information
+Identification of the data | Definition | Life span | Law | Mean | Standard deviation | 50% | 90% | 99%
+GEN-VHL-CS_RADARS2026_023(0) | Number of voltage on +CAN | 15 years 240000km | LogNorm law | 10,2 | 0,8 | 27000 | 75000 | 170000
+GEN-VHL-CS_RADARS2026_024(0) | Number of component wakeup
+Contact on | 15 years 240000km | LogNorm law | 10,062 | 0,546 | 23435 | 47180 | 83465
+GEN-VHL-CS_RADARS2026_025(0) | Duration of contact ON (h) for 15 years | 15 years 240000km | LogNorm law | 8,865 | 0,234 | 7080 | 9556 | 12202
+
+----------------------------------------------------------------------------------------
+Chunk 157:
+
+
+----------------------------------------------------------------------------------------
+Chunk 158:
+[Heading 3] Thermal profile
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 159:
+[Table]
+[Heading 3] Thermal profile
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_111(0) | An example of a temperature distribution of an electrical power component is given as following. This histogram should be built for critical components base on CL06 test or numerical simulations if the simulation is realistic. 
+High temperature endurance test should be sized with constructed profile. The duration of the test should be determined by stress-strain method.
+Very cold, cold, very hot and hot climate temperature distribution data can be inputs for the component environmental profile building up.  | SMALL- CDC-DURA-2(0)
+GEN-VHL-CS_RADARS2026_112(0) | For endurance test of number of activation (CL09), the thermal behavior (heating up and cooling down) of electrical power component should be characterized (for example in CL06 test). The results should be used in CL09 on/off cycle definition. | SMALL-CDC-DURA-3(0)
+GEN-VHL-CS_RADARS2026_113(0) | The temporal curve of temperature evolution of CL06 test should be given for thermal endurance test sizing.   | SMALL- CDC-DURA-4(0)
+
+----------------------------------------------------------------------------------------
+Chunk 160:
+
+
+----------------------------------------------------------------------------------------
+Chunk 161:
+[Table]
+[Heading 3] Thermal profile
+Exemple of critical component time passe at a temperature level for a referent client
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 162:
+
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 163:
+[Table]
+[Heading 3] Thermal profile
+Exemple of Ambient temperatures repartition, for severe cold climate (ex: Russia, USA) - without its self-heating
+The same repartition can be gotten for hot, very hot and warm climate
+
+
+----------------------------------------------------------------------------------------
+Chunk 164:
+
+
+----------------------------------------------------------------------------------------
+Chunk 165:
+[Heading 3] Lifetime
+
+----------------------------------------------------------------------------------------
+Chunk 166:
+[Table]
+[Heading 3] Lifetime
+N° Exigence(v)
+Requirement no. (v) | Libellé de l’exigence/Description of the requirement | Exigence amont(v)/Input requirement (v)
+GEN-VHL-CS_RADARS2026_027(0) | The part shall fulfil all its functions for a lifespan of 15 years or a vehicle distance travelled of 240000 km | GEN-FRONT_RADAR_ADASV3-CDC_DURA.04(0)
+
+----------------------------------------------------------------------------------------
+Chunk 167:
+
+
+----------------------------------------------------------------------------------------
+Chunk 168:
+[Heading 4] Confidence level for dependability and reliability requirements calculation
+
+
+----------------------------------------------------------------------------------------
+Chunk 169:
+[Table]
+[Heading 4] Confidence level for dependability and reliability requirements calculation
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_028(0) | The confidence level for validation test should be 75%.  | SMALL-CDC-DURA-7(0)
+
+----------------------------------------------------------------------------------------
+Chunk 170:
+
+
+----------------------------------------------------------------------------------------
+Chunk 171:
+[Heading 4] Confidence level for dependability requirements calculation
+
+
+----------------------------------------------------------------------------------------
+Chunk 172:
+[Table]
+[Heading 4] Confidence level for dependability requirements calculation
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_114(0) | The validation plan shall be sized according to: 
+- the mission profile 
+- the failure probability of the paragraphs Durability objective
+- the ageing model of the component for the relative failure mode, 
+- the number of sample in test. | SMALL- CDC-DURA-8(0)
+
+----------------------------------------------------------------------------------------
+Chunk 173:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 174:
+[Heading 4] Requirement for endurance tests
+
+
+----------------------------------------------------------------------------------------
+Chunk 175:
+[Table]
+[Heading 4] Requirement for endurance tests
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_RADARS2026_115(0) | Endurance tests shall be sized with stress-strength with deduced critical components profiles. | SMALL-CDC-DURA-9(0)
+
+----------------------------------------------------------------------------------------
+Chunk 176:
+
+
+----------------------------------------------------------------------------------------
+Chunk 177:
+[Heading 3] Ergonomics and human factors
+
+----------------------------------------------------------------------------------------
+Chunk 178:
+[Heading 4] Requirements on "random noise"
+
+Not applicable to Radars
+
+
+----------------------------------------------------------------------------------------
+Chunk 179:
+[Heading 3] RAMS requirements
+
+----------------------------------------------------------------------------------------
+Chunk 180:
+[Heading 4] Safety requirements
+
+----------------------------------------------------------------------------------------
+Chunk 181:
+[Table]
+[Heading 4] Safety requirements
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS-RADARS2026.029(0) | The product shall comply to [M19] | N/A
+GEN-VHL-CS-RADARS2026.030(0) | The product shall comply to [M21] | N/A
+GEN-VHL-CS-RADARS2026.031(0) | The product shall comply to  FUNCTIONAL SAFETY END-TO-END PROTECTION [E2E]
+ | 
+
+----------------------------------------------------------------------------------------
+Chunk 182:
+
+
+----------------------------------------------------------------------------------------
+Chunk 183:
+[Heading 5] Failure modes
+
+----------------------------------------------------------------------------------------
+Chunk 184:
+[Heading 5] Mechanisms, safety diagnosis and rehabilitation
+
+----------------------------------------------------------------------------------------
+Chunk 185:
+[Heading 5] SOTIF Safety Of The Intended Functionality
+
+----------------------------------------------------------------------------------------
+Chunk 186:
+[Heading 4] Availability requirements
+
+----------------------------------------------------------------------------------------
+Chunk 187:
+[Heading 5] Failure modes
+
+----------------------------------------------------------------------------------------
+Chunk 188:
+[Heading 5] Dreaded Events for usage, threats, aggression
+
+----------------------------------------------------------------------------------------
+Chunk 189:
+[Heading 4] Reliability requirements
+
+----------------------------------------------------------------------------------------
+Chunk 190:
+[Table]
+[Heading 4] Reliability requirements
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+APP-RADARS2026-CSP-QUAL-031(0)
+ | Radars2026 shall have a maximum probability of failure at 7 years or 
+150000km ≤ 5 x 10-3, for all event leading to a non-reparability and forcing its complete replacement, considering the mission profile defined.
+ | SMALL-CDC-DURA-5(0)
+GEN-VHL-CS_RADARS2026-QUAL-032(0)
+ | Radars2026 shall have a maximum probability of failure at 15 years or 
+240000km ≤ 1.5 x 10-2, for all event leading to a non-reparability and forcing its complete replacement, considering the mission profile defined. | SMALL-CDC-DURA-6(0)
+
+----------------------------------------------------------------------------------------
+Chunk 191:
+
+
+
+
+The failures generating dreaded events of criticality 1 and 2 will be processed by the classic process of control of risks (RETEX, FMECA,..). The list of the actions of control of risks will be integrated in the operating safety plan.
+
+----------------------------------------------------------------------------------------
+Chunk 192:
+[Heading 5] Failure modes
+The failures of the supply (Component ER) of the "functional" type, that contribute to the appearance of criticality 3 customer dreaded events, are listed below:
+A specific requirement regarding the appearance occurrence is associated to each dreaded event. In particular, the following failure modes will have to be subject of an analysis
+
+
+----------------------------------------------------------------------------------------
+Chunk 193:
+[Table]
+[Heading 5] Failure modes
+Requirement no. (v) | Failure mode | Unreliability | Note on the  failure scenario | Gravity | Input requirement
+GEN-XXX-CDC-54421.004 (0) |  | D(7years 150000km) <10-4 |  | 3 | GEN-VHL-DC-XXX.0004(0)
+ |  |  |  | 3 | 
+
+----------------------------------------------------------------------------------------
+Chunk 194:
+It is responsibility of the supplier to supplement this list if its induced system of the risks not identified above.
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 195:
+[Table]
+[Heading 5] Failure modes
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_Radars2026-SdF-033(0)
+ | All the failure modes of the component which contribute to severity 1 or 2 dreaded events will have a cumulated unreliability lower than <<10-4 (to be updated with quality objectives)>> for 3 years lifespan. | 
+GEN-RADARS2026-CSP-SdF-034(0)
+ | All the failure modes of the component not quoted below that contribute to criticality 3 dreaded events will have a cumulated unreliability lower than 10-3 after 7 years of vehicle life
+ | 
+
+----------------------------------------------------------------------------------------
+Chunk 196:
+
+
+----------------------------------------------------------------------------------------
+Chunk 197:
+[Heading 5] Dreaded Events for usage, threats, damages
+
+The failures of the supply of the "threat-damage" type, that contribute to the appearance of criticality 3 customer dreaded events, are listed below:
+
+
+----------------------------------------------------------------------------------------
+Chunk 198:
+[Table]
+[Heading 5] Dreaded Events for usage, threats, damages
+Dreaded event of the supply | Associated requirements | Gravity
+ |  | 
+ |  | 
+
+----------------------------------------------------------------------------------------
+Chunk 199:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 200:
+[Heading 5] Failure modes
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 201:
+[Heading 4] Validation requirements
+
+The input data for demonstrating compliance with SdF requirements (stress profiles and mission profiles for predictive reliability EE) are given in § 5.4.1 Mission profiles.
+
+----------------------------------------------------------------------------------------
+Chunk 202:
+[Heading 5] Required confidence level
+Confidence level for the demonstration of the SdF requirements behavior 
+
+
+----------------------------------------------------------------------------------------
+Chunk 203:
+[Heading 5] Demonstration of Dependability requirements
+The demonstration of the behavior of the SdF requirements is conducted by:
+the estimated reliability calculation, 
+the setting up of tests,
+the implementation of the design constraint (for the threat-damage ER)
+
+The validation plan elements are given for reference. 
+They should be conservatively respected, but is an acceptance criterion of the supply only if the plan allows the validation of the behavior objectives required in the § 5.4.1.1 and 5.4.1.2.
+
+It should be consolidated further to the elements provided by the SPR concerning the internal failure modes, the failure modes and the damaging parameters.
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 204:
+[Heading 4] Maintainability requirements
+
+----------------------------------------------------------------------------------------
+Chunk 205:
+[Heading 5] Diagnosis
+
+
+----------------------------------------------------------------------------------------
+Chunk 206:
+[Table]
+[Heading 5] Diagnosis (Part 1)
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-FRONTRADAR2026-CSP-MAINT-046(1) | The diagnostic messaging [DIAGFR6] is applicable. It includes the description of the data exchanged with the protocol.
+At the beginning of the development supplier/STLA can agree to converge on excel file [DIAG13] | 
+GEN-CORNERRADARS2026-CSP-MAINT-047(1) | The diagnostic messaging [DIAGCRFL6] is applicable. It includes the description of the data exchanged with the protocol.
+At the beginning of the development supplier/STLA can agree to converge on excel file [DIAG13] | 
+GEN-CORNERRADARS2026-CSP-MAINT-048(1) | The diagnostic messaging [DIAGCRFR6] is applicable. It includes the description of the data exchanged with the protocol.
+At the beginning of the development supplier/STLA can agree to converge on excel file [DIAG13] | 
+GEN-CORNERRADARS2026-CSP-MAINT-049(1) | The diagnostic messaging [DIAGCRRL6] is applicable. It includes the description of the data exchanged with the protocol.
+At the beginning of the development supplier/STLA can agree to converge on excel file [DIAG13] | 
+GEN-CORNERRADARS2026-CSP-MAINT-050(1) | The diagnostic messaging [DIAGCRRR6] is applicable. It includes the description of the data exchanged with the protocol.
+At the beginning of the development supplier/STLA can agree to converge on excel file [DIAG13] | 
+GEN-CORNERRADARS2026-CSP-MAINT-051(1) | The part must comply to [DIAGFR1], [DIAGFR2], [DIAGFR3], [DIAGFR4.1], [DIAGFR4.2], [DIAGFR4.3], [DIAGFR4.4], [DIAGFR7], [DIAGFR9], [DIAGFR10] and [DIAGFR5],  
+
+ | 
+GEN-CORNERRADARS2026-CSP-MAINT-052(1) | The part must comply to [DIAGCR1], [DIAGCR2], [DIAGCR3], [DIAGCR4.1], [DIAGCR4.2], [DIAGCR4.3], [DIAGCR4.4], [DIAGCR7], [DIAGCR9], [DIAGCR10] and [DIAGCR5],  | 
+GEN-CORNERRADARS2026-CSP-MAINT-053(0) | Diagnosis concerned by an inhibited function (SW/CAL/DOTE) are inhibited (DTC are not raised). | CL 6
+GEN-CORNERRADARS2026-CSP-MAINT-054(0) | The encryption is in accordance with [DIAG8a] and [DIAG8b] | 
+GEN-CORNERRADARS2026-CSP-MAINT-055(0) | The Radar must delete all recorded data when receiving a diagnostic request of deletion (through OBD and OTA) | 
+
+----------------------------------------------------------------------------------------
+Chunk 207:
+[Table]
+[Heading 5] Diagnosis (Part 2)
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS-RADARS2026.043(3) | The part must comply to [DIAG21],[DIAG22],[DIAG25],[DIAG27],[DIAG28],[DIAG29],[DIAG30],[DIAG31],[DIAG32],[DIAG33],
+[DIAG34],[DIAGTEST1],[DIAGTEST2],and [DIAGTEST3], [DIAG36] , [DIAG37] ,[DIAG38].
+ | NA
+GEN-VHL-CS-RADARS2026.035(2) | The Radars2026 shall comply with [DIAG12]
+ | 
+GEN-VHL-CS-RADARS2026.036(0) | The filtering delay and thresholds before setting a DTC/start a degrading mode can be tuned in the cal file for each network failure (managed by a common SW). | 
+GEN-VHL-CS-RADARS2026.037(0) | Diagnosis concerned by an inhibited function (SW/CAL/DOTE) are inhibited (DTC are not raised). | CL6
+GEN-VHL-CS-RADARS2026.041(0) | The filtering delay before setting a DTC/start a degraded mode can be tuned in the cal file for each network failure (managed by a common SW) | CL51
+GEN-VHL-CS-RADARS2026.042(0) | The decision to activate one/several degraded modes after the apparition of a failsafe and the filtering delay before setting each degraded mode can be tuned in the cal file (managed by a common SW) | CL58
+GEN-VHL-CS-RADARS2026.045(1) | The part must comply to the general aspects of the EOL programming procedures as defined in 
+[EOL1] and [EOL2] | NA
+GEN-VHL-CS-RADARS2026.046(0) | The component must provide the capability to extract appearance/confirmation conditions context of DTCs necessary to diagnose the root cause of an issue (internal data e.g. failsafes..) during development and serial life. These data cannot contradict the validity of the DTC status (=appearance/confirmation/disappearance) | 
+
+----------------------------------------------------------------------------------------
+Chunk 208:
+
+
+----------------------------------------------------------------------------------------
+Chunk 209:
+[Heading 5] Factory alignment and control
+
+----------------------------------------------------------------------------------------
+Chunk 210:
+[Table]
+[Heading 5] Factory alignment and control
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS-RADARS2026.039(1) | The part must comply to [STA37] | 
+GEN-VHL-CS-RADARS2026.040(1) | The part must comply to [STA38] | 
+
+----------------------------------------------------------------------------------------
+Chunk 211:
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 212:
+[Heading 5] Repair capability and interchangeability in after sale	
+
+
+----------------------------------------------------------------------------------------
+Chunk 213:
+[Table]
+[Heading 5] Repair capability and interchangeability in after sale	
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS-RADARS2026.038(1) | The part must comply to [SQM23] | 
+
+----------------------------------------------------------------------------------------
+Chunk 214:
+
+
+----------------------------------------------------------------------------------------
+Chunk 215:
+[Heading 3] Product quality
+
+----------------------------------------------------------------------------------------
+Chunk 216:
+[Heading 4] Estimated incidence rate
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 217:
+[Table]
+[Heading 4] Estimated incidence rate
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+
+APP-FRONTRADAR2026-CSP-QUAL-055(0) | The maximum estimated incidence rate allowable, whatever the responsibilities, expressed in IPMP (Incident Per Million Parts), is the number of failures evaluated in terms of customer use brought back to a million of supplied part.
+
+The FrontRadar2026 shall conform to IPMP targets specified in the table below:
+
+IMPORTANT NOTE 1: The supplier can propose a system split in several sub-parts, these values expressed the maximal incidence rate allowed by PSA to the entirety of the “system”. The supplier shall detail in its answer the breakdown for each subpart.
+
+IMPORTANT NOTE 2: The supplier can propose to separate functional incidents (that can be solved by SW/cal update) from physical incidents (mechanical, electrical or electronical) in his answer. The physical failure rate that implies to change a part has to be as low as possible and this answer will be analysed in detail by Stellantis for final selection.
+
+During the serial life of the system/component, these targets will be used for Quality coordination and the launch of corrective actions if needed.
+
+ | 
+
+APP-CORNERRADARS2026-CSP-QUAL-056(0) | The maximum estimated incidence rate allowable, whatever the responsibilities, expressed in IPMP (Incident Per Million Parts), is the number of failures evaluated in terms of customer use brought back to a million of supplied part.
+
+The CornerRadars2026 shall conform to IPMP targets specified in the table below:
+
+IMPORTANT NOTE 1: The supplier can propose a system split in several sub-parts, these values expressed the maximal incidence rate allowed by PSA to the entirety of the “system”. The supplier shall detail in its answer the breakdown for each subpart.
+
+IMPORTANT NOTE 2: The supplier can propose to separate functional incidents (that can be solved by SW/cal update) from physical incidents (mechanical, electrical or electronical) in his answer. The physical failure rate that implies to change a part has to be as low as possible and this answer will be analysed in detail by Stellantis for final selection.
+
+During the serial life of the system/component, these targets will be used for Quality coordination and the launch of corrective actions if needed.
+ | 
+
+----------------------------------------------------------------------------------------
+Chunk 218:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 219:
+[Heading 4] Generic list of EE deliverables and part maturity
+
+
+----------------------------------------------------------------------------------------
+Chunk 220:
+[Table]
+[Heading 4] Generic list of EE deliverables and part maturity
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS-RADARS2026.032(2)
+ | The supplier shall answer to the Generic List of EE deliverables [SQM01] proposed.
+This document also provides the detail of each maturity part (tab “Part Maturity”. | NA
+GEN-VHL-CS-RADARS2026.044(0) | The part must comply to [SQM24] if any modification done during serial life | NA
+
+----------------------------------------------------------------------------------------
+Chunk 221:
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 222:
+[Heading 4] Quality convergence requirement in development
+
+
+----------------------------------------------------------------------------------------
+Chunk 223:
+[Table]
+[Heading 4] Quality convergence requirement in development
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_Radars2026-QUAL-057(1)
+ | The component / part complies with the quality convergence requirements in development defined in the following table. The definitions of A and B gravity default are given in document [STA16] | 
+
+----------------------------------------------------------------------------------------
+Chunk 224:
+
+
+----------------------------------------------------------------------------------------
+Chunk 225:
+[Table]
+[Heading 4] Quality convergence requirement in development
+Milestones : | Milestones : | J3 APQP |  | J4 APQP | J5 APQP
+Milestones : | Milestones : | Off-tools part release | Product Plant Maturity Milestone | PPAP approved | End of development
+Number of defects with A gravity: | STELLANTIS target: | x | x | 0 | 0
+Number of defects with A gravity: | Supplier commitment: |  |  |  | 
+Number of defects with B gravity: | STELLANTIS target: | x | x | 0 | 0
+Number of defects with B gravity: | Supplier commitment: |  |  |  | 
+
+----------------------------------------------------------------------------------------
+Chunk 226:
+
+
+----------------------------------------------------------------------------------------
+Chunk 227:
+[Heading 3] Protection against hostility
+
+
+----------------------------------------------------------------------------------------
+Chunk 228:
+[Table]
+[Heading 3] Protection against hostility
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+ |  | 
+
+----------------------------------------------------------------------------------------
+Chunk 229:
+
+
+----------------------------------------------------------------------------------------
+Chunk 230:
+[Heading 3] Resources reserve capacity of the system
+
+----------------------------------------------------------------------------------------
+Chunk 231:
+[Table]
+[Heading 3] Resources reserve capacity of the system
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-RESERV-058(0) | The component shall respect the following reserves charges for SOP:
+
+
+
+
+Note: "ACC" in table above means any Driving assistance algorithms | 
+
+----------------------------------------------------------------------------------------
+Chunk 232:
+[Heading 3] Document requirements
+
+Document requirements are specified in GEED SQM01 document
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 233:
+[Heading 3] Diagnostic requirements for factory 
+
+
+----------------------------------------------------------------------------------------
+Chunk 234:
+[Table]
+[Heading 3] Diagnostic requirements for factory 
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+ GEN-VHL-CS-RADARS2026.082(2)
+
+
+
+ | The document shall respect requirements specified in [IUAV]  | N/A
+
+----------------------------------------------------------------------------------------
+Chunk 235:
+
+
+----------------------------------------------------------------------------------------
+Chunk 236:
+[Heading 3] Assembly requirements
+
+----------------------------------------------------------------------------------------
+Chunk 237:
+[Table]
+[Heading 3] Assembly requirements
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+ GEN-VHL-CS-RADARS2026.083(2)
+
+
+
+ | The document shall respect requirements specified in [STA5] | N/A
+
+----------------------------------------------------------------------------------------
+Chunk 238:
+
+CONSTRAINT REQUIREMENTS
+
+----------------------------------------------------------------------------------------
+Chunk 239:
+[Heading 3] Regulation and consumerism
+
+
+----------------------------------------------------------------------------------------
+Chunk 240:
+[Table]
+[Heading 3] Regulation and consumerism
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS-RADARS2026.059(0) | The product shall be GSRv2 step 2 compliant | N/A
+GEN-VHL-CS-RADARS2026.060(3) | The part shall be saleable (i.e. respect regulation) in the mandatory perimeter defined in [FEA00] | N/A
+GEN-VHL-CS-RADARS2026.061(3) | The part shall be saleable in the optional perimeter defined in [FEA00]
+Note: quote “optional” countries separately if it leads to cost increase. | N/A
+GEN-VHL-CS-RADARS2026.062(0) | The part shall not store nor send non-anonymized data (GDPR regulation) | CL50
+GEN-VHL-CS-RADARS2026.063(0) | The part must respect [R1] | N/A
+GEN-VHL-CS-RADARS2026.064(0) | The part must respect [NCAP] targets allocated to the system | N/A
+GEN-VHL-CS-RADARS2026.065(0) | The part must respect [RED] 2014/53/EU UE Radio Equipment Directive (RED)
+(document to retrieve by supplier) | N/A
+
+----------------------------------------------------------------------------------------
+Chunk 241:
+
+
+----------------------------------------------------------------------------------------
+Chunk 242:
+[Heading 3] Weight and other physical characteristics
+
+----------------------------------------------------------------------------------------
+Chunk 243:
+[Table]
+[Heading 3] Weight and other physical characteristics
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-PHYS-066(2)
+ | The part complies with the functional drawing [STA2] specifically for the dimensional constraints and the functional dimensions.
+ | 
+
+----------------------------------------------------------------------------------------
+Chunk 244:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 245:
+[Heading 3] Design and Manufacturing
+
+
+----------------------------------------------------------------------------------------
+Chunk 246:
+[Heading 4] REQUIREMENTS FOR CONNECTOR
+
+----------------------------------------------------------------------------------------
+Chunk 247:
+[Table]
+[Heading 4] REQUIREMENTS FOR CONNECTOR (Part 1)
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS-RADARS2026.067(1) | The header shall be according to the following interface drawing described in [CON3].
+att_bool@CTF | GEN-CONN-CDC-DOC.0001(0)
+GEN-VHL-CS-FRONTRADAR2026.068(0) | The pinout of the header is TBD during dev | N/A
+GEN-VHL-CS-CORNERRADARS2026.069(0) | The pinout of the header is TBD during dev | N/A
+GEN-VHL-CS-FRONTRADAR2026.070(0) | The coding of the header is TBD during dev (see coding available in interface drawings). | GEN-CONN-CDC-DOC.0002(0)
+GEN-VHL-CS-CORNERRADARS2026.071(0) | The coding of the header is TBD during dev (see coding available in interface drawings). | GEN-CONN-CDC-DOC.0002(0)
+GEN-VHL-CS-RADARS2026.074(0) | The tabs comply with standard B12 5210 [N3] (material, design) and to the interface drawing (geometry).
+att_bool@CTF | GEN-CONN-CDC-DOC.0003 (0)
+GEN-VHL-CS-RADARS2026.075(0) | Terminals plating is tinned (Sn).
+att_bool@CTF | GEN-CONN-CDC-DOC.0004 (0)
+GEN-VHL-CS-RADARS2026.076(0) | Tabs platings comply with the standard B12 5220 [N4] (nature, thickness ...), unless otherwise stated in the interface drawing.
+att_bool@CTF | GEN-CONN-CDC-DOC.0005 (0)
+GEN-VHL-CS-RADARS2026.077(0) | The header resists to a 150N pull off in all axes which allow the traction on a harness. | GEN-CONN-CDC-VAL.0002 (0)
+GEN-VHL-CS-RADARS2026.078(1) | REQUIREMENT REMOVED | GEN_CVM_15-00
+
+----------------------------------------------------------------------------------------
+Chunk 248:
+[Table]
+[Heading 4] REQUIREMENTS FOR CONNECTOR (Part 2)
+Requirement no. (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS-RADARS2026.079(0) | The connections must respect [N4] | N/A
+GEN-VHL-CS-RADARS2026.080(0) | The connections must respect [STA10] | N/A
+GEN-HW-ST-SSC.008(1) | ETI.6: The EEE connector and/or pin header should be designed with no adjacent “power supply” pin and ground pin (or tab with low resistance to the ground).
+Cf picture with exclusion in red circle.
+In case of 2 ways connectors, the pins must be separate physically.
+In case of 2v or 3v connector on 1 row, and 4v or 6v on 2 rows, the pins must be separate physically.
+
+
+
+ | GEN-HW-ST-SSC.008(0)
+GEN-HW-ST-SSC.009(0) | The pin header or the over moulding tabs of the EEE shall prevent a water ingress inside the EEE
+
+Acceptance criterion of the requirement
+[B217130]CL07d open connector,
+[01552_13_10889] RA19 | GEN-HW-ST-SSC.009(0)
+
+GEN-VHL-CS-RADARS2026.081(0) | 
+The pinout of the main header must be the following
+Draft to be discussed ,8 pins might be possible
+
+
+FR : Front Radar
+FCR : Front Corner Radars
+RCR : Rear Corner Radars
+
+ | N/A
+
+----------------------------------------------------------------------------------------
+Chunk 249:
+
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 250:
+[Heading 4] Studies and/or imposed solutions
+
+----------------------------------------------------------------------------------------
+Chunk 251:
+[Table]
+[Heading 4] Studies and/or imposed solutions
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-CONC-081(0)
+ | The chosen technical solutions are not protected by patents, other than the supplier ones. | N/A
+GEN-RADARS2026-CSP-CONC-083(4) | The product must embed transceivers listed in  [SHORT2] . ( Stellantis_Green_List_transceivers_switches_01991_21_02190) | N/A
+GEN-RADARS2026-CSP-CONC-084(0) | The product must embed MCU listed in [SHORT3] | N/A
+GEN-RADARS2026-CSP-CONC-085(0)
+ | After a SW downloading (ulp or cal), the parameters linked to the mechanical environment of the sensor shall be kept by the ECU. The parameters linked to dynamic learnings (e.g. autofix) shall be set to their init value | CL49
+
+----------------------------------------------------------------------------------------
+Chunk 252:
+
+
+The constraints on the design and the production of wiring harness sub-assembly are:
+
+
+----------------------------------------------------------------------------------------
+Chunk 253:
+[Table]
+[Heading 4] Studies and/or imposed solutions
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-CONC-086(0) | The harnesses sub-assembly complies with the TDS “Wiring harness design rules” [CON5]. | 
+GEN-RADARS2026-CSP-CONC-087(0) | The fastening of the connector contact tabs (weld, press fit) or of the remote wiring harness should not generate stresses on the electronic circuit. The base unit should be integral with the part unit or be fastened on the circuit board. This fastening should not have an impact on components (mechanical or electrical defects). | 
+
+----------------------------------------------------------------------------------------
+Chunk 254:
+
+
+The constraints on the design and the production of the software are:
+
+
+----------------------------------------------------------------------------------------
+Chunk 255:
+[Table]
+[Heading 4] Studies and/or imposed solutions
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-CONC-088(1)
+ | The software source code complies with the coding rules specified in the “Development rules for embedded software” [STA1] | 
+GEN-RADARS2026-CSP-CONC-089(1)
+ | The software source code complies with the rules specified in [STA1b] | 
+GEN-RADARS2026-CSP-CONC-090(0) | FOTA solution proposed by the supplier must be managed by the component only (double banking). | 
+GEN-RADARS2026-CSP-CONC-091(0) | STLA will study FOTA centralized solution, in this case the cyber security requirements will be modified | 
+GEN-RADARS2026-CSP-CONC-092(0) | The end to end specifications to secure the networks must be converged during the development | 
+GEN-RADARS2026-CSP-CONC-093(1) | The component must comply to cybersecurity requirements specified in [[CYBER1] ,[CYBER2],[CYBER4],[CYBER5],[CYBER6],[CYBER7],[CYBER8],[CYBER9],[CYBER10],[CYBER11],[CYBER12],
+[CYBER14],[CYBER15],[CYBER37],[CYBER16],[CYBER17],[CYBER18],[CYBER19],[CYBER20],[CYBER21],[CYBER22],
+[CYBER24],[CYBER25],[CYBER26],[CYBER27],[CYBER28],[CYBER29],[CYBER30],[CYBER31],[CYBER32],[CYBER33],
+[CYBER34],[CYBER35],[CYBER36], [CYBER37],[CYBER38],
+[CYBER39],[CYBER40],[CYBER41],[CYBER42],[CYBER43],[CYBER44],[CYBER45],[CYBER46],[CYBER47], [CYBER48],[CYBER49],[CYBER50] ,[CYBER51]
+ | SUPERSETLIST
+GEN-RADARS2026-CSP-CONC-094(0) | The component must comply to Software requirements specified in [SW1], [SW2], [SW3], [SW4], [SW5], [SW6], [SW7],    | SUPERSETLIST
+GEN-RADARS2026-CSP-CONC-095(0) | The component must comply to Cyber-Security Assurance Requirements specified in [CSAR] | 
+GEN-RADARS2026-CSP-CONC-096(0) | The component must comply to [CCTS] | 
+
+----------------------------------------------------------------------------------------
+Chunk 256:
+
+
+----------------------------------------------------------------------------------------
+Chunk 257:
+[Heading 4] Materials
+
+----------------------------------------------------------------------------------------
+Chunk 258:
+[Table]
+[Heading 4] Materials
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-RETR-093(0) | The materials complies to [N30] constraints | N/A
+GEN-RADARS2026-CSP-RETR-094(0) | The materials complies to [STA6] constraints | N/A
+
+----------------------------------------------------------------------------------------
+Chunk 259:
+
+
+----------------------------------------------------------------------------------------
+Chunk 260:
+[Heading 4] Manufacturing
+
+----------------------------------------------------------------------------------------
+Chunk 261:
+[Table]
+[Heading 4] Manufacturing
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-FAB-095(0) | The system has only one connector per cable  | 
+GEN-RADARS2026-CSP-FAB-096(0) | The beams are fastened by clipping on the system connectors | 
+GEN-RADARS2026-CSP-FAB-097(0)
+ | The system’s connectors should be easily accessible for the assembler and visible after assembly  | 
+
+----------------------------------------------------------------------------------------
+Chunk 262:
+
+
+----------------------------------------------------------------------------------------
+Chunk 263:
+[Heading 4] Marking of the Components or Parts
+
+
+----------------------------------------------------------------------------------------
+Chunk 264:
+[Table]
+[Heading 4] Marking of the Components or Parts
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-RADARS2026-CSP-MARQ-098(0) | The material marking on integrated or detached components must comply with standard B20 1315 [N24]
+
+att_bool@CTF | GEN-CONN-CDC-DOC.0006 (1)
+GEN-RADARS2026-CSP-MARQ-099(1)
+ | For any requirement that involves an indelible inscription :
+
+The indelible character of the inscription is validated through the set of tests in standard “Spécifications d’environnement des équipements électriques et électroniques - caractéristiques physico-chimiques”
+[N43]. See § 5.6.5 of this present document 
+ | 
+GEN-RADARS2026-CSP-MARQ-100(2) | The system components are identified in a readable and indelible way, according to [N22] & [N29].
+In conformity with these standards, the minimal indications are the following:
+
+
+ | [M20] § 5.1.4.1
+GEN-RADARS2026-CSP-MARQ-101(2)
+ | Logo or logotype MOPAR [STA3] must be on the location defined for this purpose in Functional Drawing [STA2].
+
+PS: The brand logos shall not be visible to the customer. | 
+GEN-RADARS2026-CSP-MARQ-102(0)
+ | For spare parts supplied by APV, the label must indicate the country of origin by "made in" followed by the name of the country where the part was manufactured. The label must not be affixed Functional surfaces of the part (shown in Functional Drawing) | [M20] § 5.1.9.4
+GEN-FRONTRADAR2026-CSP-MARQ-103(1)
+ | Marking on indelible inscription: the CEM type approval reference will respect the following syntax:
+APTIV–FR2026-CEMxx
+
+Field 1: Supplier name or acronym
+xx: C.E.M update index linked to the guideline 2007/46/CE. It starts at CEM00. It is incremented (CEM01, CEM02…) when the updates are considered as impacting the guideline criteria. ("Electromagnetic compatibility" mandatory) | I_T19_1_v1
+
+[M9]
+ 
+
+GEN-CORNERRADARS2026-CSP-MARQ-104(1)
+ | Marking on indelible inscription: the CEM type approval reference will respect the following syntax:
+APTIV–CRS2026-CEMxx
+
+Field 1: Supplier name or acronym
+xx: C.E.M update index linked to the guideline 2007/46/CE. It starts at CEM00. It is incremented (CEM01, CEM02…) when the updates are considered as impacting the guideline criteria. ("Electromagnetic compatibility" mandatory) | I_T19_1_v1
+
+[M9]
+ 
+
+GEN-VHL-CS_Radars2026-MARQ-105(0) | Marking on an indelible inscription :
+the hardware reference,
+the software reference, TBC during label convergence | 
+
+----------------------------------------------------------------------------------------
+Chunk 265:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 266:
+[Table]
+[Heading 4] Marking of the Components or Parts
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_Radars2026-MARQ-106(1)
+ | The component has an indelible inscription, a bar code having the following characteristics: 
+Bar code 2D
+compliant with the ST "Specifications for the creation of a conformity label" [STA9]. | 
+
+----------------------------------------------------------------------------------------
+Chunk 267:
+
+
+----------------------------------------------------------------------------------------
+Chunk 268:
+[Heading 3] Traceability and configuration
+
+
+----------------------------------------------------------------------------------------
+Chunk 269:
+[Heading 3] Transportability, storage, and packaging
+
+
+----------------------------------------------------------------------------------------
+Chunk 270:
+[Heading 3] Flexibility and extension
+
+
+----------------------------------------------------------------------------------------
+Chunk 271:
+[Heading 3] Withdrawal
+
+
+----------------------------------------------------------------------------------------
+Chunk 272:
+[Heading 3] Environment conditions
+
+----------------------------------------------------------------------------------------
+Chunk 273:
+[Table]
+[Heading 3] Environment conditions
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_Radars2026-ENV-107(0)
+ | The component must comply (=pass successfully) to tests defined in [ETS01], in accordance with[N40] and [N41] | N/A
+GEN-VHL-CS_Radars2026-ENV-108(0) | The component must comply (=pass successfully) to tests defined in [ETS02], in accordance with [N40], [N42], [N43] and [STA36].
+Some tests are proposed see [NM41] and [NM43] | N/A
+GEN-VHL-CS_Radars2026-ENV-109(0) | The connectors (Base + Connector) should respect the requirements of the E2 sealing class according to standard [N1] § Sealing classes.
+
+att_bool@CTF | [M11] GEN-CONN-CDC-DOC.0011 (0) [M11]
+
+----------------------------------------------------------------------------------------
+Chunk 274:
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 275:
+[Heading 2] INTEGRATION AND VALIDATION REQUIREMENTS
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 276:
+[Table]
+[Heading 2] INTEGRATION AND VALIDATION REQUIREMENTS
+Requirement Number (v) | Description of the requirement | Input requirement (v)
+GEN-VHL-CS_Radars2026-VAL-110(0)
+ | The component must provide debug data depending on use case (specific CAN on instrumented part, debug frames through CAN or internet for dev on serial parts) | N/A
+GEN-VHL-CS_Radars2026-VAL-111(0)
+ | The supplier shall propose a solution of flying engineer for STELLANTIS support.
+ 
+“A flying engineer shall be able to handle the following activities for all STELLANTIS locations in less than 48h :
+Receipt participation to check good functional/calibration of component with new SW (Reflash, download, telecoding…)
+Support for component integration on STELLANTIS test means (HIL bench, vehicle).
+Participation to some joined test / Drives.
+Update of STELLANTIS test means (replace component, reflash, download, telecoding…)
+Intervention on an issue seen (failure, unexpected vehicle behavior)
+Intervention in the context of the reproduction of a test NOK (help/support to ISSUE convergence)
+Intervention in plant when there is an issue (calibration NOK, failure on component…)
+Update of vehicles in plants (in case of SW update mandatory to apply before vehicle use).
+ 
+The duration is the whole dev. and vehicle adaptations.”
+ | N/A
+
+----------------------------------------------------------------------------------------
+Chunk 277:
+
+
+----------------------------------------------------------------------------------------
+Chunk 278:
+[Heading 1] Appendix A: “title”
+
+
+
+
+----------------------------------------------------------------------------------------
+Chunk 279:
+Image saved at media/image7.png
+
+----------------------------------------------------------------------------------------
+Chunk 280:
+Image saved at media/image16.png
+
+----------------------------------------------------------------------------------------
+Chunk 281:
+Image saved at media/image18.png
+
+----------------------------------------------------------------------------------------
+Chunk 282:
+Image saved at media/image10.emf
+
+----------------------------------------------------------------------------------------
+Chunk 283:
+Image saved at media/image15.png
+
+----------------------------------------------------------------------------------------
+Chunk 284:
+Image saved at media/image5.png
+
+----------------------------------------------------------------------------------------
+Chunk 285:
+Image saved at media/image12.png
+
+----------------------------------------------------------------------------------------
+Chunk 286:
+Image saved at media/image6.wmf
+
+----------------------------------------------------------------------------------------
+Chunk 287:
+Image saved at media/image9.png
+
+----------------------------------------------------------------------------------------
+Chunk 288:
+Image saved at media/image11.png
+
+----------------------------------------------------------------------------------------
+Chunk 289:
+Image saved at media/image14.png
+
+----------------------------------------------------------------------------------------
+Chunk 290:
+Image saved at media/image4.png
+
+----------------------------------------------------------------------------------------
+Chunk 291:
+Image saved at media/image20.png
+
+----------------------------------------------------------------------------------------
+Chunk 292:
+Image saved at media/image3.png
+
+----------------------------------------------------------------------------------------
+Chunk 293:
+Image saved at media/image8.png
+
+----------------------------------------------------------------------------------------
+Chunk 294:
+Image saved at media/image13.png
+
+----------------------------------------------------------------------------------------
+Chunk 295:
+Image saved at media/image17.png
+
+----------------------------------------------------------------------------------------
+Chunk 296:
+Image saved at media/image2.png
+
+----------------------------------------------------------------------------------------
+Chunk 297:
+Image saved at media/image19.png
+
+----------------------------------------------------------------------------------------
