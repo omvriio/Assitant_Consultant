@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="{{ set_lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        #chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 10px;
+        }
+        #input-container {
+            display: flex;
+            border-top: 1px solid #ccc;
+        }
+        #user-input {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+        #send-button {
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container"></div>
+    <div id="input-container">
+        <input type="text" id="user-input" placeholder="Type a message..." />
+        <button id="send-button">Send</button>
+    </div>
+    <script>
+        document.getElementById('send-button').addEventListener('click', async () => {
+            const userInput = document.getElementById('user-input').value;
+            if (userInput.trim() === '') return;
+
+            const chatContainer = document.getElementById('chat-container');
+            const userMessageDiv = document.createElement('div');
+            userMessageDiv.textContent = `You: ${userInput}`;
+            chatContainer.appendChild(userMessageDiv);
+
+            const response = await fetch('http://localhost:5000/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: userInput })
+            });
+            const data = await response.json();
+            const botMessageDiv = document.createElement('div');
+            botMessageDiv.textContent = `Bot: ${data.response}`;
+            chatContainer.appendChild(botMessageDiv);
+
+            document.getElementById('user-input').value = '';
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        });
+    </script>
+</body>
+</html>
